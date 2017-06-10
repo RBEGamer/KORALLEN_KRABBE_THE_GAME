@@ -7,14 +7,14 @@ public class coral_controller : MonoBehaviour {
 
 
 
-	public float coral_health_percentage = 1.0f;
+	private float coral_health_percentage = 1.0f;
 
-
+	private Animator anim = null;
 	public GameObject coral_food_particle_system;
 	public GameObject coral_health_bar_empty_object;
 	public GameObject coral_health_bar_full_object;
 
-
+	public GameObject coral_model_holder;
 	public float food_avariable_timer_max = 5.0f;
 	public float food_avariable_timer_curr = 5.0f;
 	public bool food_update_enabled = true;
@@ -22,6 +22,20 @@ public class coral_controller : MonoBehaviour {
 	public int inc_player_hung  = 5;
 	// Use this for initialization
 	void Start () {
+
+
+
+		if(coral_model_holder == null){
+			Debug.LogError("please spcify a model for the corals");
+		}
+
+		anim = coral_model_holder.GetComponent<Animator>();
+		if(anim == null){
+			Debug.LogError("the model must have a animator");
+		}
+
+		anim.SetBool("is_wedel", true);
+		anim.speed = 1.0f;
 		coral_food_particle_system.GetComponent<ParticleSystem>().Stop();
 		coral_health_bar_empty_object.GetComponent<Image>().fillOrigin = 0;
 		coral_health_bar_empty_object.GetComponent<Image>().fillOrigin = 1;
@@ -40,16 +54,27 @@ public class coral_controller : MonoBehaviour {
 				set_food_avariable();
 			}
 		}
+
+
+
+		if(coral_health_percentage <= 0.0f){
+			//TODO DIE
+			anim.SetBool("is_wedel", false);
+			food_update_enabled = false;
+		}
 	}
 
 	[ContextMenu("SET FOOD")]
 	public void set_food_avariable(){
+		if(!food_update_enabled){return;}
 		coral_food_particle_system.GetComponent<ParticleSystem>().Play();
+		anim.SetBool("is_wedel", false);
 	}
 
 	[ContextMenu("DELETE FOOD")]
 	public void remove_food_avariable(){
 		coral_food_particle_system.GetComponent<ParticleSystem>().Stop();
+		anim.SetBool("is_wedel", true);
 	}
 
 
@@ -58,7 +83,7 @@ public class coral_controller : MonoBehaviour {
 		if(_val > 1.0f){coral_health_percentage = 1.0f;}
 		else if(_val < 0.0f){coral_health_percentage = 0.0f;}
 		else{coral_health_percentage = _val;}
-
+		anim.speed = coral_health_percentage;
 		//DIRTY
 		coral_health_bar_empty_object.GetComponent<Image>().fillAmount = 1.0f-coral_health_percentage;
 		coral_health_bar_full_object.GetComponent<Image>().fillAmount = coral_health_percentage;
