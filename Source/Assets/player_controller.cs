@@ -13,6 +13,13 @@ public class player_controller : MonoBehaviour {
 	private float schnipping_timer_curr = 0.5f;
 
 
+
+	public float player_hungry = 100;
+	public float player_hungry_dec_amount = 1;
+	public float dec_hung_timer_max = 0.5f;
+	private float dev_hung_timer_curr = 0.5f;
+
+
 	private GameObject garbage_to_del = null;
 	// Use this for initialization
 	void Start () {
@@ -25,9 +32,22 @@ public class player_controller : MonoBehaviour {
 		this.name = "player";
 		should_have_position = this.transform.position;
 	}
-	
+
+
 	// Update is called once per frame
 	void Update () {
+
+
+
+		if(dev_hung_timer_curr >= 0.0f){
+			dev_hung_timer_curr = dec_hung_timer_max;
+			player_hungry -= player_hungry_dec_amount;
+			if(player_hungry < 0){
+				//TODO LOOSE
+			}
+		}
+
+
 
 		if((should_have_position - this.gameObject.transform.position).magnitude > 0.0f){
 			anim.SetBool("is_idle", false);
@@ -68,7 +88,9 @@ public class player_controller : MonoBehaviour {
 		
 
 
-
+	public void stock_hungry(int _val){
+		player_hungry += _val;
+	}
 	public void start_schnipping_process(GameObject _other){
 		Debug.Log("bla");
 		schnipping_timer_curr=schnipping_timer_max;

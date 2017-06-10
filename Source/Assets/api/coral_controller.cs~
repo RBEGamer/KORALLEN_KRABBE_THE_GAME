@@ -18,6 +18,8 @@ public class coral_controller : MonoBehaviour {
 	public float food_avariable_timer_max = 5.0f;
 	public float food_avariable_timer_curr = 5.0f;
 	public bool food_update_enabled = true;
+
+	public int inc_player_hung  = 5;
 	// Use this for initialization
 	void Start () {
 		coral_food_particle_system.GetComponent<ParticleSystem>().Stop();
@@ -70,6 +72,7 @@ public class coral_controller : MonoBehaviour {
 
 		if(_other.name == API.Current.Globals.player_obj_name){
 			remove_food_avariable();
+			_other.GetComponent<player_controller>().stock_hungry(inc_player_hung);
 		}
 	}
 }
