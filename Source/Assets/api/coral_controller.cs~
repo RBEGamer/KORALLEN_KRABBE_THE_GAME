@@ -13,16 +13,49 @@ public class coral_controller : MonoBehaviour {
 	public GameObject coral_food_particle_system;
 	public GameObject coral_health_bar_empty_object;
 	public GameObject coral_health_bar_full_object;
+
+
+	public float food_avariable_timer_max = 5.0f;
+	public float food_avariable_timer_curr = 5.0f;
+	public bool food_update_enabled = true;
 	// Use this for initialization
 	void Start () {
 		coral_food_particle_system.GetComponent<ParticleSystem>().Stop();
 		coral_health_bar_empty_object.GetComponent<Image>().fillOrigin = 0;
 		coral_health_bar_empty_object.GetComponent<Image>().fillOrigin = 1;
+
+		food_avariable_timer_curr = food_avariable_timer_max;
 	}
+
+
 	
 	// Update is called once per frame
-	void FixedUpdate () {
-		set_coral_health(coral_health_percentage);
+	void Update () {
+
+		if(food_update_enabled){
+
+			food_avariable_timer_curr -= Time.deltaTime;
+			if(food_avariable_timer_curr <= 0.0f){
+				food_avariable_timer_curr = food_avariable_timer_max;
+				set_food_avariable();
+			}
+
+
+
+
+		}
+
+
+
+	}
+
+
+	public void set_food_avariable(){
+		coral_food_particle_system.GetComponent<ParticleSystem>().Play();
+	}
+
+	public void remove_food_avariable(){
+		coral_food_particle_system.GetComponent<ParticleSystem>().Stop();
 	}
 
 
