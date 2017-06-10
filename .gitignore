@@ -22,7 +22,7 @@ ExportedObj/
 *.booproj
 *.svd
 *.pdb
-
+*.dwlt
 # REM LOGs
 *.log
 # Unity3D generated meta files
