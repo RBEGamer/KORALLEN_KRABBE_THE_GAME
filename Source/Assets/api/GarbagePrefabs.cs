@@ -6,9 +6,9 @@ public class GarbagePrefabs : MonoBehaviour
 {
     public GameObject[] Objects;
 
-    public GameObject CreateRandomGarbage()
+    public GarbageItem CreateRandomGarbage()
     {
         var i = Random.Range(0, Objects.Length);
-        return Instantiate(Objects[i]);
+        return Instantiate(Objects[i]).GetComponent<GarbageItem>();
     }
 }

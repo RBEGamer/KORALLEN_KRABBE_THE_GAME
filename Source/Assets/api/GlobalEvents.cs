@@ -5,6 +5,7 @@ public class GlobalEvents : MonoBehaviour
 {
     public event System.Action OnGameOver;
     public event System.Action OnNewSpawn;
+    public event System.Action<GarbageArea> OnGarbageAreaFull;
 
     public void TriggerGameOver()
     {
@@ -16,5 +17,11 @@ public class GlobalEvents : MonoBehaviour
     {
         if (OnNewSpawn != null)
             OnNewSpawn();
+    }
+
+    public void TriggerGarbageAreaFull(GarbageArea area)
+    {
+        if (OnGarbageAreaFull != null)
+            OnGarbageAreaFull(area);
     }
 }

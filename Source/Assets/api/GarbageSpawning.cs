@@ -58,8 +58,34 @@ public class GarbageSpawning : MonoBehaviour
 
         var obj = GarbagePrefabs.CreateRandomGarbage();
         var pos = GetSpawnPosition();
+        obj.OnLanded = OnItemLanded;
 
         obj.transform.position = pos + new Vector3(0, 10, 0);
+    }
+
+    void OnItemLanded(GarbageItem item)
+    {
+        var area = _GetAreaOfItem(item);
+        if(area == null)
+        {
+            Destroy(item.gameObject);
+        }
+
+        area.OnGarbageLanded(item);
+    }
+
+    GarbageArea _GetAreaOfItem(GarbageItem item)
+    {
+        for (int c = 0; c < AllAreas.Count; c++)
+        {
+            var area = AllAreas[c];
+            if(area.HasItem(item))
+            {
+                return area;
+            }
+        }
+
+        return null;
     }
 
     public Vector3 GetSpawnPosition()
