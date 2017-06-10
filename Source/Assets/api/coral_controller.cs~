@@ -31,29 +31,21 @@ public class coral_controller : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
 		if(food_update_enabled){
-
 			food_avariable_timer_curr -= Time.deltaTime;
 			if(food_avariable_timer_curr <= 0.0f){
 				food_avariable_timer_curr = food_avariable_timer_max;
 				set_food_avariable();
 			}
-
-
-
-
 		}
-
-
-
 	}
 
-
+	[ContextMenu("SET FOOD")]
 	public void set_food_avariable(){
 		coral_food_particle_system.GetComponent<ParticleSystem>().Play();
 	}
 
+	[ContextMenu("DELETE FOOD")]
 	public void remove_food_avariable(){
 		coral_food_particle_system.GetComponent<ParticleSystem>().Stop();
 	}

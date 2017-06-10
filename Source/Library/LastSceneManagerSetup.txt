@@ -1,4 +1,7 @@
 sceneSetups:
-- path: Assets/scenes/Path/Main_KLA.unity
+- path: Assets/scenes/Main/main.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/marcel_merge.unity
+  isLoaded: 1
+  isActive: 0
