@@ -1,0 +1,33 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class menu_manager : MonoBehaviour {
+
+	// Use this for initialization
+	void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
+
+
+
+
+	public void play_clicked(){
+
+
+
+	}
+
+
+
+	public void credits_clicked(){
+
+
+
+	}
+}
