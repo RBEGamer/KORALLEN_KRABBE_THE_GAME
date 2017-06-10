@@ -11,8 +11,7 @@ public class coral_controller : MonoBehaviour {
 
 	private Animator anim = null;
 	public GameObject coral_food_particle_system;
-	public GameObject coral_health_bar_empty_object;
-	public GameObject coral_health_bar_full_object;
+	public GameObject coral_health_bar_object;
 
 	public GameObject coral_model_holder;
 	public float food_avariable_timer_max = 5.0f;
@@ -37,8 +36,7 @@ public class coral_controller : MonoBehaviour {
 		anim.SetBool("is_wedel", true);
 		anim.speed = 1.0f;
 		coral_food_particle_system.GetComponent<ParticleSystem>().Stop();
-		coral_health_bar_empty_object.GetComponent<Image>().fillOrigin = 0;
-		coral_health_bar_empty_object.GetComponent<Image>().fillOrigin = 1;
+		coral_health_bar_object.GetComponent<Slider>().value = 1.0f -coral_health_percentage;
 
 		food_avariable_timer_curr = food_avariable_timer_max;
 	}
@@ -85,8 +83,7 @@ public class coral_controller : MonoBehaviour {
 		else{coral_health_percentage = _val;}
 		anim.speed = coral_health_percentage;
 		//DIRTY
-		coral_health_bar_empty_object.GetComponent<Image>().fillAmount = 1.0f-coral_health_percentage;
-		coral_health_bar_full_object.GetComponent<Image>().fillAmount = coral_health_percentage;
+		coral_health_bar_object.GetComponent<Slider>().value = 1.0f -coral_health_percentage;
 
 	}
 
