@@ -62,4 +62,14 @@ public class coral_controller : MonoBehaviour {
 		coral_health_bar_full_object.GetComponent<Image>().fillAmount = coral_health_percentage;
 
 	}
+
+
+
+
+	void OnTriggerEnter(Collider _other){
+
+		if(_other.name == API.Current.Globals.player_obj_name){
+			remove_food_avariable();
+		}
+	}
 }
