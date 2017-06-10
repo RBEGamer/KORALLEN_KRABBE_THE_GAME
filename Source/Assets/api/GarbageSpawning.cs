@@ -53,6 +53,8 @@ public class GarbageSpawning : MonoBehaviour
     [ContextMenu("Spawn")]
     void _Spawn()
     {
+        API.Current.GlobalEvents.TriggerNewSpawn();
+
         var obj = GarbagePrefabs.CreateRandomGarbage();
         var pos = GetSpawnPosition();
 
@@ -68,6 +70,7 @@ public class GarbageSpawning : MonoBehaviour
         }
         else
         {
+            API.Current.GlobalEvents.TriggerGameOver();
             //Game Over
         }
         return Vector3.zero;
