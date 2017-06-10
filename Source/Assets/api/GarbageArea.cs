@@ -21,4 +21,9 @@ public class GarbageArea : MonoBehaviour
         var i = Random.Range(0, Spawns.Count);
         return Spawns[i].position;
     }
+
+    public bool HasSpawns()
+    {
+        return Spawns != null && Spawns.Count != 0;
+    }
 }

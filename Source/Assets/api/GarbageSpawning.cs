@@ -6,6 +6,7 @@ using UnityEngine;
 public class GarbageSpawning : MonoBehaviour
 {
     public int AreaCount = 4;
+    public float SpawnInterval = 2;
     public GarbageArea AreaPrefab;
     public GarbagePrefabs GarbagePrefabs;
 
@@ -82,7 +83,7 @@ public class GarbageSpawning : MonoBehaviour
         {
             var i = Random.Range(0, AllAreas.Count);
             var area = AllAreas[i];
-            if (area.IsAreaFullWithGarbage) continue;
+            if (area.IsAreaFullWithGarbage || !area.HasSpawns()) continue;
 
             return area;
         }
@@ -105,7 +106,7 @@ public class GarbageSpawning : MonoBehaviour
     private float _t = 0;
     private void LateUpdate()
     {
-        if(_t > 2)
+        if(_t > SpawnInterval)
         {
             _Spawn();
             _t = 0;
