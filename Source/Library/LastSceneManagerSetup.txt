@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scenes/Main/main.unity
+- path: Assets/marcel_merge.unity
   isLoaded: 1
   isActive: 1
