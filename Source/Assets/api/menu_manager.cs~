@@ -19,7 +19,7 @@ public class menu_manager : MonoBehaviour {
 
 	public void play_clicked(){
 
-
+		this.gameObject.SetActive(false);
 
 	}
 
@@ -27,7 +27,7 @@ public class menu_manager : MonoBehaviour {
 
 	public void credits_clicked(){
 
-
+		this.gameObject.SetActive(false);
 
 	}
 }
