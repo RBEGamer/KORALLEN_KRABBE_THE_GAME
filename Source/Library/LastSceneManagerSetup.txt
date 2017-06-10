@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scenes/Path/Path.unity
+- path: Assets/scenes/Path/Main_KLA.unity
   isLoaded: 1
   isActive: 1

@@ -87,6 +87,8 @@ ModelImporter:
     100158: Cube_057
     100160: Cube_058
     100162: Cube_059
+    100164: KrabbeGarbageMesh
+    100166: World_Cube_392
     400000: //RootNode
     400002: Cube_002
     400004: Cube_003
@@ -169,6 +171,8 @@ ModelImporter:
     400158: Cube_057
     400160: Cube_058
     400162: Cube_059
+    400164: KrabbeGarbageMesh
+    400166: World_Cube_392
     2300000: //RootNode
     2300002: Cube_002
     2300004: Cube_003
@@ -251,6 +255,8 @@ ModelImporter:
     2300158: Cube_057
     2300160: Cube_058
     2300162: Cube_059
+    2300164: KrabbeGarbageMesh
+    2300166: World_Cube_392
     3300000: //RootNode
     3300002: Cube_002
     3300004: Cube_003
@@ -333,6 +339,8 @@ ModelImporter:
     3300158: Cube_057
     3300160: Cube_058
     3300162: Cube_059
+    3300164: KrabbeGarbageMesh
+    3300166: World_Cube_392
     4300000: Cube
     4300002: KrabbeNavMesh
     4300004: Cube_017_Cube_019
@@ -415,6 +423,8 @@ ModelImporter:
     4300158: Cube_009
     4300160: Cube_008
     4300162: Cube_001
+    4300164: KrabbeGarbageMesh
+    4300166: World_Cube_392
     7400000: Default Take
     9500000: //RootNode
   materials:
