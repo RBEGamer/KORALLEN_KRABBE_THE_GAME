@@ -13,7 +13,8 @@ public class Globals : MonoBehaviour
 	{
 		GS_SPAWN,
 		GS_MENU,
-		GS_PLAYING
+		GS_PLAYING,
+		GS_DIE
 	}
 
 	public GAME_STATES game_state = GAME_STATES.GS_MENU;

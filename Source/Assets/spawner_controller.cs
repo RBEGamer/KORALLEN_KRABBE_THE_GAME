@@ -32,5 +32,14 @@ public class spawner_controller : MonoBehaviour {
 			API.Current.Globals.game_state = Globals.GAME_STATES.GS_PLAYING;
 		}
 
+
+		if(API.Current.Globals.game_state == Globals.GAME_STATES.GS_DIE){
+			
+			API.Current.Globals.game_state = Globals.GAME_STATES.GS_MENU;
+
+		}
+
+
+
 	}
 }
