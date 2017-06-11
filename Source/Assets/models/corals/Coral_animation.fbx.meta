@@ -1,0 +1,440 @@
+fileFormatVersion: 2
+guid: 867a8391418637d46bff73abf9a7f479
+timeCreated: 1497180088
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature Coral 1.040
+    100002: Armature Coral 1.041
+    100004: Armature Coral 1.042
+    100006: Armature Coral 1.043
+    100008: Bone
+    100010: Bone 1
+    100012: Bone 2
+    100014: Bone 3
+    100016: Bone.001
+    100018: Bone.001 1
+    100020: Bone.001 2
+    100022: Bone.001 3
+    100024: Bone.002
+    100026: Bone.002 1
+    100028: Bone.002 2
+    100030: Bone.002 3
+    100032: Bone.003
+    100034: Bone.003 1
+    100036: Bone.003 2
+    100038: Bone.003 3
+    100040: Bone.004
+    100042: Bone.004 1
+    100044: Bone.004 2
+    100046: Bone.004 3
+    100048: Bone.004_end
+    100050: Bone.004_end 1
+    100052: Bone.004_end 2
+    100054: Bone.004_end 3
+    100056: Bone.005
+    100058: Bone.005 1
+    100060: Bone.005 2
+    100062: Bone.005 3
+    100064: Bone.005_end
+    100066: Bone.005_end 1
+    100068: Bone.005_end 2
+    100070: Bone.005_end 3
+    100072: //RootNode
+    100074: Cube.354
+    100076: Cube.355
+    100078: Cube.356
+    100080: Cube.357
+    400000: Armature Coral 1.040
+    400002: Armature Coral 1.041
+    400004: Armature Coral 1.042
+    400006: Armature Coral 1.043
+    400008: Bone
+    400010: Bone 1
+    400012: Bone 2
+    400014: Bone 3
+    400016: Bone.001
+    400018: Bone.001 1
+    400020: Bone.001 2
+    400022: Bone.001 3
+    400024: Bone.002
+    400026: Bone.002 1
+    400028: Bone.002 2
+    400030: Bone.002 3
+    400032: Bone.003
+    400034: Bone.003 1
+    400036: Bone.003 2
+    400038: Bone.003 3
+    400040: Bone.004
+    400042: Bone.004 1
+    400044: Bone.004 2
+    400046: Bone.004 3
+    400048: Bone.004_end
+    400050: Bone.004_end 1
+    400052: Bone.004_end 2
+    400054: Bone.004_end 3
+    400056: Bone.005
+    400058: Bone.005 1
+    400060: Bone.005 2
+    400062: Bone.005 3
+    400064: Bone.005_end
+    400066: Bone.005_end 1
+    400068: Bone.005_end 2
+    400070: Bone.005_end 3
+    400072: //RootNode
+    400074: Cube.354
+    400076: Cube.355
+    400078: Cube.356
+    400080: Cube.357
+    4300000: Cube.357
+    4300002: Cube.356
+    4300004: Cube.355
+    4300006: Cube.354
+    7400000: Armature Coral 1.043|Armature Coral 1.040Action
+    7400002: Armature Coral 1.043|Armature Coral 1.040Action.001
+    7400004: Armature Coral 1.043|Armature Coral 1.041Action
+    7400006: Armature Coral 1.043|Armature Coral 1.041Action.001
+    7400008: Armature Coral 1.043|Armature Coral 1.042Action
+    7400010: Armature Coral 1.043|Armature Coral 1.042Action.001
+    7400012: Armature Coral 1.043|Armature Coral 1.043Action
+    7400014: Armature Coral 1.043|Armature Coral 1.043Action.001
+    7400016: Armature Coral 1.043|Armature.127Action
+    7400018: Armature Coral 1.043|Armature.128Action
+    7400020: Armature Coral 1.043|Armature.129Action
+    7400022: Armature Coral 1.043|Armature.130Action
+    7400024: Armature Coral 1.043|Armature.131Action
+    7400026: Armature Coral 1.043|Armature.132Action
+    7400028: Armature Coral 1.043|Armature.133Action
+    7400030: Armature Coral 1.043|Armature.134Action
+    7400032: Armature Coral 1.043|Armature.135Action
+    7400034: Armature Coral 1.043|Armature.136Action
+    7400036: Armature Coral 1.043|Armature.137Action
+    7400038: Armature Coral 1.043|Armature.138Action
+    7400040: Armature Coral 1.043|Armature.139Action
+    7400042: Armature Coral 1.043|Armature.142Action
+    7400044: Armature Coral 1.043|Cube.312Action
+    7400046: Armature Coral 1.043|Cube.313Action
+    7400048: Armature Coral 1.043|Cube.314Action
+    7400050: Armature Coral 1.043|Cube.315Action
+    7400052: Armature Coral 1.043|Cube.316Action
+    7400054: Armature Coral 1.043|Cube.339Action
+    7400056: Armature Coral 1.043|Cube.351|Cube.350|Armature.127Action|Cube.350|Armature.127Actio
+    7400058: Armature Coral 1.043|Cube.351|Cube.350|Cube.312Action|Cube.350|Cube.312Action
+    7400060: Armature Coral 1.043|Cube.351|Cube.350|Cube.313Action|Cube.350|Cube.313Action
+    7400062: Armature Coral 1.043|Cube.351|Cube.350|Cube.314Action|Cube.350|Cube.314Action
+    7400064: Armature Coral 1.043|Cube.351|Cube.350|Cube.315Action|Cube.350|Cube.315Action
+    7400066: Armature Coral 1.043|Cube.351|Cube.350|Cube.316Action|Cube.350|Cube.316Action
+    7400068: Armature Coral 1.043|Cube.351|Cube.350|Cube.339Action|Cube.350|Cube.339Action
+    7400070: Armature Coral 1.043|Cube.351|Cube.350|SeegrassAction|Cube.350|SeegrassAction
+    7400072: Armature Coral 1.043|Cube.352Action
+    7400074: Armature Coral 1.043|Cube.353Action
+    7400076: Armature Coral 1.043|Cylinder.002Action
+    7400078: Armature Coral 1.043|CylinderAction
+    7400080: Armature Coral 1.043|CylinderAction.001
+    7400082: Armature Coral 1.043|SeegrassAction
+    7400084: Cube.357|Armature Coral 1.040Action
+    7400086: Cube.357|Armature Coral 1.041Action
+    7400088: Cube.357|Armature Coral 1.042Action
+    7400090: Cube.357|Armature Coral 1.043Action
+    7400092: Cube.357|Armature.127Action
+    7400094: Cube.357|Armature.142Action
+    7400096: Cube.357|Cube.312Action
+    7400098: Cube.357|Cube.313Action
+    7400100: Cube.357|Cube.314Action
+    7400102: Cube.357|Cube.315Action
+    7400104: Cube.357|Cube.316Action
+    7400106: Cube.357|Cube.339Action
+    7400108: Cube.357|Cube.351|Cube.350|Armature.127Action|Cube.350|Armature.127Actio
+    7400110: Cube.357|Cube.351|Cube.350|Cube.312Action|Cube.350|Cube.312Action
+    7400112: Cube.357|Cube.351|Cube.350|Cube.313Action|Cube.350|Cube.313Action
+    7400114: Cube.357|Cube.351|Cube.350|Cube.314Action|Cube.350|Cube.314Action
+    7400116: Cube.357|Cube.351|Cube.350|Cube.315Action|Cube.350|Cube.315Action
+    7400118: Cube.357|Cube.351|Cube.350|Cube.316Action|Cube.350|Cube.316Action
+    7400120: Cube.357|Cube.351|Cube.350|Cube.339Action|Cube.350|Cube.339Action
+    7400122: Cube.357|Cube.351|Cube.350|SeegrassAction|Cube.350|SeegrassAction
+    7400124: Cube.357|Cube.352Action
+    7400126: Cube.357|Cube.353Action
+    7400128: Cube.357|Cylinder.002Action
+    7400130: Cube.357|CylinderAction
+    7400132: Cube.357|CylinderAction.001
+    7400134: Cube.357|SeegrassAction
+    7400136: Armature Coral 1.042|Armature Coral 1.040Action
+    7400138: Armature Coral 1.042|Armature Coral 1.040Action.001
+    7400140: Armature Coral 1.042|Armature Coral 1.041Action
+    7400142: Armature Coral 1.042|Armature Coral 1.041Action.001
+    7400144: Armature Coral 1.042|Armature Coral 1.042Action
+    7400146: Armature Coral 1.042|Armature Coral 1.042Action.001
+    7400148: Armature Coral 1.042|Armature Coral 1.043Action
+    7400150: Armature Coral 1.042|Armature Coral 1.043Action.001
+    7400152: Armature Coral 1.042|Armature.127Action
+    7400154: Armature Coral 1.042|Armature.128Action
+    7400156: Armature Coral 1.042|Armature.129Action
+    7400158: Armature Coral 1.042|Armature.130Action
+    7400160: Armature Coral 1.042|Armature.131Action
+    7400162: Armature Coral 1.042|Armature.132Action
+    7400164: Armature Coral 1.042|Armature.133Action
+    7400166: Armature Coral 1.042|Armature.134Action
+    7400168: Armature Coral 1.042|Armature.135Action
+    7400170: Armature Coral 1.042|Armature.136Action
+    7400172: Armature Coral 1.042|Armature.137Action
+    7400174: Armature Coral 1.042|Armature.138Action
+    7400176: Armature Coral 1.042|Armature.139Action
+    7400178: Armature Coral 1.042|Armature.142Action
+    7400180: Armature Coral 1.042|Cube.312Action
+    7400182: Armature Coral 1.042|Cube.313Action
+    7400184: Armature Coral 1.042|Cube.314Action
+    7400186: Armature Coral 1.042|Cube.315Action
+    7400188: Armature Coral 1.042|Cube.316Action
+    7400190: Armature Coral 1.042|Cube.339Action
+    7400192: Armature Coral 1.042|Cube.351|Cube.350|Armature.127Action|Cube.350|Armature.127Actio
+    7400194: Armature Coral 1.042|Cube.351|Cube.350|Cube.312Action|Cube.350|Cube.312Action
+    7400196: Armature Coral 1.042|Cube.351|Cube.350|Cube.313Action|Cube.350|Cube.313Action
+    7400198: Armature Coral 1.042|Cube.351|Cube.350|Cube.314Action|Cube.350|Cube.314Action
+    7400200: Armature Coral 1.042|Cube.351|Cube.350|Cube.315Action|Cube.350|Cube.315Action
+    7400202: Armature Coral 1.042|Cube.351|Cube.350|Cube.316Action|Cube.350|Cube.316Action
+    7400204: Armature Coral 1.042|Cube.351|Cube.350|Cube.339Action|Cube.350|Cube.339Action
+    7400206: Armature Coral 1.042|Cube.351|Cube.350|SeegrassAction|Cube.350|SeegrassAction
+    7400208: Armature Coral 1.042|Cube.352Action
+    7400210: Armature Coral 1.042|Cube.353Action
+    7400212: Armature Coral 1.042|Cylinder.002Action
+    7400214: Armature Coral 1.042|CylinderAction
+    7400216: Armature Coral 1.042|CylinderAction.001
+    7400218: Armature Coral 1.042|SeegrassAction
+    7400220: Cube.356|Armature Coral 1.040Action
+    7400222: Cube.356|Armature Coral 1.041Action
+    7400224: Cube.356|Armature Coral 1.042Action
+    7400226: Cube.356|Armature Coral 1.043Action
+    7400228: Cube.356|Armature.127Action
+    7400230: Cube.356|Armature.142Action
+    7400232: Cube.356|Cube.312Action
+    7400234: Cube.356|Cube.313Action
+    7400236: Cube.356|Cube.314Action
+    7400238: Cube.356|Cube.315Action
+    7400240: Cube.356|Cube.316Action
+    7400242: Cube.356|Cube.339Action
+    7400244: Cube.356|Cube.351|Cube.350|Armature.127Action|Cube.350|Armature.127Actio
+    7400246: Cube.356|Cube.351|Cube.350|Cube.312Action|Cube.350|Cube.312Action
+    7400248: Cube.356|Cube.351|Cube.350|Cube.313Action|Cube.350|Cube.313Action
+    7400250: Cube.356|Cube.351|Cube.350|Cube.314Action|Cube.350|Cube.314Action
+    7400252: Cube.356|Cube.351|Cube.350|Cube.315Action|Cube.350|Cube.315Action
+    7400254: Cube.356|Cube.351|Cube.350|Cube.316Action|Cube.350|Cube.316Action
+    7400256: Cube.356|Cube.351|Cube.350|Cube.339Action|Cube.350|Cube.339Action
+    7400258: Cube.356|Cube.351|Cube.350|SeegrassAction|Cube.350|SeegrassAction
+    7400260: Cube.356|Cube.352Action
+    7400262: Cube.356|Cube.353Action
+    7400264: Cube.356|Cylinder.002Action
+    7400266: Cube.356|CylinderAction
+    7400268: Cube.356|CylinderAction.001
+    7400270: Cube.356|SeegrassAction
+    7400272: Armature Coral 1.041|Armature Coral 1.040Action
+    7400274: Armature Coral 1.041|Armature Coral 1.040Action.001
+    7400276: Armature Coral 1.041|Armature Coral 1.041Action
+    7400278: Armature Coral 1.041|Armature Coral 1.041Action.001
+    7400280: Armature Coral 1.041|Armature Coral 1.042Action
+    7400282: Armature Coral 1.041|Armature Coral 1.042Action.001
+    7400284: Armature Coral 1.041|Armature Coral 1.043Action
+    7400286: Armature Coral 1.041|Armature Coral 1.043Action.001
+    7400288: Armature Coral 1.041|Armature.127Action
+    7400290: Armature Coral 1.041|Armature.128Action
+    7400292: Armature Coral 1.041|Armature.129Action
+    7400294: Armature Coral 1.041|Armature.130Action
+    7400296: Armature Coral 1.041|Armature.131Action
+    7400298: Armature Coral 1.041|Armature.132Action
+    7400300: Armature Coral 1.041|Armature.133Action
+    7400302: Armature Coral 1.041|Armature.134Action
+    7400304: Armature Coral 1.041|Armature.135Action
+    7400306: Armature Coral 1.041|Armature.136Action
+    7400308: Armature Coral 1.041|Armature.137Action
+    7400310: Armature Coral 1.041|Armature.138Action
+    7400312: Armature Coral 1.041|Armature.139Action
+    7400314: Armature Coral 1.041|Armature.142Action
+    7400316: Armature Coral 1.041|Cube.312Action
+    7400318: Armature Coral 1.041|Cube.313Action
+    7400320: Armature Coral 1.041|Cube.314Action
+    7400322: Armature Coral 1.041|Cube.315Action
+    7400324: Armature Coral 1.041|Cube.316Action
+    7400326: Armature Coral 1.041|Cube.339Action
+    7400328: Armature Coral 1.041|Cube.351|Cube.350|Armature.127Action|Cube.350|Armature.127Actio
+    7400330: Armature Coral 1.041|Cube.351|Cube.350|Cube.312Action|Cube.350|Cube.312Action
+    7400332: Armature Coral 1.041|Cube.351|Cube.350|Cube.313Action|Cube.350|Cube.313Action
+    7400334: Armature Coral 1.041|Cube.351|Cube.350|Cube.314Action|Cube.350|Cube.314Action
+    7400336: Armature Coral 1.041|Cube.351|Cube.350|Cube.315Action|Cube.350|Cube.315Action
+    7400338: Armature Coral 1.041|Cube.351|Cube.350|Cube.316Action|Cube.350|Cube.316Action
+    7400340: Armature Coral 1.041|Cube.351|Cube.350|Cube.339Action|Cube.350|Cube.339Action
+    7400342: Armature Coral 1.041|Cube.351|Cube.350|SeegrassAction|Cube.350|SeegrassAction
+    7400344: Armature Coral 1.041|Cube.352Action
+    7400346: Armature Coral 1.041|Cube.353Action
+    7400348: Armature Coral 1.041|Cylinder.002Action
+    7400350: Armature Coral 1.041|CylinderAction
+    7400352: Armature Coral 1.041|CylinderAction.001
+    7400354: Armature Coral 1.041|SeegrassAction
+    7400356: Cube.355|Armature Coral 1.040Action
+    7400358: Cube.355|Armature Coral 1.041Action
+    7400360: Cube.355|Armature Coral 1.042Action
+    7400362: Cube.355|Armature Coral 1.043Action
+    7400364: Cube.355|Armature.127Action
+    7400366: Cube.355|Armature.142Action
+    7400368: Cube.355|Cube.312Action
+    7400370: Cube.355|Cube.313Action
+    7400372: Cube.355|Cube.314Action
+    7400374: Cube.355|Cube.315Action
+    7400376: Cube.355|Cube.316Action
+    7400378: Cube.355|Cube.339Action
+    7400380: Cube.355|Cube.351|Cube.350|Armature.127Action|Cube.350|Armature.127Actio
+    7400382: Cube.355|Cube.351|Cube.350|Cube.312Action|Cube.350|Cube.312Action
+    7400384: Cube.355|Cube.351|Cube.350|Cube.313Action|Cube.350|Cube.313Action
+    7400386: Cube.355|Cube.351|Cube.350|Cube.314Action|Cube.350|Cube.314Action
+    7400388: Cube.355|Cube.351|Cube.350|Cube.315Action|Cube.350|Cube.315Action
+    7400390: Cube.355|Cube.351|Cube.350|Cube.316Action|Cube.350|Cube.316Action
+    7400392: Cube.355|Cube.351|Cube.350|Cube.339Action|Cube.350|Cube.339Action
+    7400394: Cube.355|Cube.351|Cube.350|SeegrassAction|Cube.350|SeegrassAction
+    7400396: Cube.355|Cube.352Action
+    7400398: Cube.355|Cube.353Action
+    7400400: Cube.355|Cylinder.002Action
+    7400402: Cube.355|CylinderAction
+    7400404: Cube.355|CylinderAction.001
+    7400406: Cube.355|SeegrassAction
+    7400408: Armature Coral 1.040|Armature Coral 1.040Action
+    7400410: Armature Coral 1.040|Armature Coral 1.040Action.001
+    7400412: Armature Coral 1.040|Armature Coral 1.041Action
+    7400414: Armature Coral 1.040|Armature Coral 1.041Action.001
+    7400416: Armature Coral 1.040|Armature Coral 1.042Action
+    7400418: Armature Coral 1.040|Armature Coral 1.042Action.001
+    7400420: Armature Coral 1.040|Armature Coral 1.043Action
+    7400422: Armature Coral 1.040|Armature Coral 1.043Action.001
+    7400424: Armature Coral 1.040|Armature.127Action
+    7400426: Armature Coral 1.040|Armature.128Action
+    7400428: Armature Coral 1.040|Armature.129Action
+    7400430: Armature Coral 1.040|Armature.130Action
+    7400432: Armature Coral 1.040|Armature.131Action
+    7400434: Armature Coral 1.040|Armature.132Action
+    7400436: Armature Coral 1.040|Armature.133Action
+    7400438: Armature Coral 1.040|Armature.134Action
+    7400440: Armature Coral 1.040|Armature.135Action
+    7400442: Armature Coral 1.040|Armature.136Action
+    7400444: Armature Coral 1.040|Armature.137Action
+    7400446: Armature Coral 1.040|Armature.138Action
+    7400448: Armature Coral 1.040|Armature.139Action
+    7400450: Armature Coral 1.040|Armature.142Action
+    7400452: Armature Coral 1.040|Cube.312Action
+    7400454: Armature Coral 1.040|Cube.313Action
+    7400456: Armature Coral 1.040|Cube.314Action
+    7400458: Armature Coral 1.040|Cube.315Action
+    7400460: Armature Coral 1.040|Cube.316Action
+    7400462: Armature Coral 1.040|Cube.339Action
+    7400464: Armature Coral 1.040|Cube.351|Cube.350|Armature.127Action|Cube.350|Armature.127Actio
+    7400466: Armature Coral 1.040|Cube.351|Cube.350|Cube.312Action|Cube.350|Cube.312Action
+    7400468: Armature Coral 1.040|Cube.351|Cube.350|Cube.313Action|Cube.350|Cube.313Action
+    7400470: Armature Coral 1.040|Cube.351|Cube.350|Cube.314Action|Cube.350|Cube.314Action
+    7400472: Armature Coral 1.040|Cube.351|Cube.350|Cube.315Action|Cube.350|Cube.315Action
+    7400474: Armature Coral 1.040|Cube.351|Cube.350|Cube.316Action|Cube.350|Cube.316Action
+    7400476: Armature Coral 1.040|Cube.351|Cube.350|Cube.339Action|Cube.350|Cube.339Action
+    7400478: Armature Coral 1.040|Cube.351|Cube.350|SeegrassAction|Cube.350|SeegrassAction
+    7400480: Armature Coral 1.040|Cube.352Action
+    7400482: Armature Coral 1.040|Cube.353Action
+    7400484: Armature Coral 1.040|Cylinder.002Action
+    7400486: Armature Coral 1.040|CylinderAction
+    7400488: Armature Coral 1.040|CylinderAction.001
+    7400490: Armature Coral 1.040|SeegrassAction
+    7400492: Cube.354|Armature Coral 1.040Action
+    7400494: Cube.354|Armature Coral 1.041Action
+    7400496: Cube.354|Armature Coral 1.042Action
+    7400498: Cube.354|Armature Coral 1.043Action
+    7400500: Cube.354|Armature.127Action
+    7400502: Cube.354|Armature.142Action
+    7400504: Cube.354|Cube.312Action
+    7400506: Cube.354|Cube.313Action
+    7400508: Cube.354|Cube.314Action
+    7400510: Cube.354|Cube.315Action
+    7400512: Cube.354|Cube.316Action
+    7400514: Cube.354|Cube.339Action
+    7400516: Cube.354|Cube.351|Cube.350|Armature.127Action|Cube.350|Armature.127Actio
+    7400518: Cube.354|Cube.351|Cube.350|Cube.312Action|Cube.350|Cube.312Action
+    7400520: Cube.354|Cube.351|Cube.350|Cube.313Action|Cube.350|Cube.313Action
+    7400522: Cube.354|Cube.351|Cube.350|Cube.314Action|Cube.350|Cube.314Action
+    7400524: Cube.354|Cube.351|Cube.350|Cube.315Action|Cube.350|Cube.315Action
+    7400526: Cube.354|Cube.351|Cube.350|Cube.316Action|Cube.350|Cube.316Action
+    7400528: Cube.354|Cube.351|Cube.350|Cube.339Action|Cube.350|Cube.339Action
+    7400530: Cube.354|Cube.351|Cube.350|SeegrassAction|Cube.350|SeegrassAction
+    7400532: Cube.354|Cube.352Action
+    7400534: Cube.354|Cube.353Action
+    7400536: Cube.354|Cylinder.002Action
+    7400538: Cube.354|CylinderAction
+    7400540: Cube.354|CylinderAction.001
+    7400542: Cube.354|SeegrassAction
+    9500000: //RootNode
+    13700000: Cube.354
+    13700002: Cube.355
+    13700004: Cube.356
+    13700006: Cube.357
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
