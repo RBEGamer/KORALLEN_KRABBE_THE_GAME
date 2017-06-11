@@ -69,6 +69,7 @@ public class GarbageSpawning : MonoBehaviour
         if(area == null)
         {
             Destroy(item.gameObject);
+            return;
         }
 
         area.OnGarbageLanded(item);
