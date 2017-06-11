@@ -12,7 +12,7 @@ public class player_controller : MonoBehaviour {
 	public float schnipping_timer_max = 1.0f;
 	private float schnipping_timer_curr = 0.5f;
 
-
+	public GameObject crab_model_holder;
 
 	public float player_hungry = 100;
 	public float player_hungry_dec_amount = 1;
@@ -23,7 +23,11 @@ public class player_controller : MonoBehaviour {
 	private GameObject garbage_to_del = null;
 	// Use this for initialization
 	void Start () {
-		anim = this.GetComponent<Animator>();
+
+		if(crab_model_holder == null ||  crab_model_holder.GetComponent<Animator>() == null){
+			Debug.LogError("please spcify the player model with animator");
+		}
+		anim = crab_model_holder.GetComponent<Animator>();
 		enable_movement = true;
 		anim.SetBool("is_idle", true);
 		anim.SetBool("is_eating", false);
@@ -49,9 +53,6 @@ public class player_controller : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if(API.Current.Globals.game_state == Globals.GAME_STATES.GS_SPAWN){
-			spawn();
-		}
 
 		if(dev_hung_timer_curr >= 0.0f){
 			dev_hung_timer_curr = dec_hung_timer_max;
