@@ -38,11 +38,11 @@ public class GarbageItem : MonoBehaviour
 
 
 
-	void OnTriggerEnter(Collider _other){
-		if(_other.gameObject.GetComponent<player_controller>() != null){
-			_other.gameObject.GetComponent<player_controller>().start_schnipping_process(this.gameObject);
-		}
-	}
+	//void OnTriggerEnter(Collider _other){
+	//	if(_other.gameObject.GetComponent<player_controller>() != null){
+	//		_other.gameObject.GetComponent<player_controller>().start_schnipping_process(this.gameObject);
+	//	}
+	//}
 
 
 	public void remove_item(){

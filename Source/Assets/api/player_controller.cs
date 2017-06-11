@@ -121,7 +121,7 @@ public class player_controller : MonoBehaviour {
 				anim.SetBool("is_schnipping_left", false);
 				anim.SetBool("is_schnipping_right", false);
 				if(garbage_to_del != null){
-				garbage_to_del.GetComponent<GarbageItem>().remove_item();
+				garbage_to_del.GetComponent<GarbageItemCollider>().remove_item();
 					garbage_to_del = null;
 				}
 			}
