@@ -41,6 +41,6 @@ public class GarbageArea : MonoBehaviour
 
     public bool HasItem(GarbageItem item)
     {
-        return OwnBoxCollider.bounds.Contains(item.transform.position);
+        return OwnBoxCollider.bounds.Intersects(item.OwnCollider.bounds);
     }
 }

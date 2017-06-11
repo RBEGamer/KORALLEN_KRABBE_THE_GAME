@@ -8,11 +8,12 @@ public class GarbageItem : MonoBehaviour
     public bool HasLanded = false;
     public float FallSpeed = 1;
     public Rigidbody OwnRigidBody;
+    public CapsuleCollider OwnCollider;
     public System.Action<GarbageItem> OnLanded;
 
     private IEnumerator Start()
     {
-        yield return new WaitForSeconds(2.0f);
+        yield return new WaitForSeconds(1.0f);
         IsAlive = true;
     }
 
@@ -27,7 +28,7 @@ public class GarbageItem : MonoBehaviour
         if (!IsAlive) return;
         if (HasLanded) return;
 
-        if(OwnRigidBody.velocity.sqrMagnitude < 0.1f)
+        if(OwnRigidBody.velocity.sqrMagnitude < 0.001f)
         {
             HasLanded = true;
             if (OnLanded != null)
