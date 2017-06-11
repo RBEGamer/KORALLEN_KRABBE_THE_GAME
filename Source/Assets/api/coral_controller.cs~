@@ -19,11 +19,24 @@ public class coral_controller : MonoBehaviour {
 	public bool food_update_enabled = true;
 
 	public int inc_player_hung  = 5;
+
+
+
+
+	public void reset(){
+
+
+		coral_health_percentage = 1.0f;
+		anim.SetBool("is_wedel", true);
+		anim.speed = 1.0f;
+		coral_food_particle_system.GetComponent<ParticleSystem>().Stop();
+		coral_health_bar_object.GetComponent<Slider>().value = 1.0f -coral_health_percentage;
+	}
 	// Use this for initialization
 	void Start () {
 
 
-
+		coral_health_percentage = 1.0f;
 		if(coral_model_holder == null){
 			Debug.LogError("please spcify a model for the corals");
 		}

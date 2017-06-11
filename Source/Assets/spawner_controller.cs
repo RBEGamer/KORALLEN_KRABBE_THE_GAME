@@ -8,7 +8,11 @@ public class spawner_controller : MonoBehaviour {
 	void Awake () {
 		this.name = "spawner_controller";	
 	}
-	
+
+
+
+
+
 	// Update is called once per frame
 	void Update () {
 
@@ -17,6 +21,13 @@ public class spawner_controller : MonoBehaviour {
 		if(API.Current.Globals.game_state == Globals.GAME_STATES.GS_SPAWN){
 
 			GameObject.Find("player").GetComponent<player_controller>().spawn();
+
+
+
+
+			foreach (GameObject n in GameObject.FindGameObjectsWithTag("corals")) {
+				n.GetComponent<coral_controller>().reset();
+			}
 
 			API.Current.Globals.game_state = Globals.GAME_STATES.GS_PLAYING;
 		}
