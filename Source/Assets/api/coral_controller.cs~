@@ -7,7 +7,7 @@ public class coral_controller : MonoBehaviour {
 
 
 
-	private float coral_health_percentage = 1.0f;
+	public float coral_health_percentage = 1.0f;
 
 	private Animator anim = null;
 	public GameObject coral_food_particle_system;
@@ -17,13 +17,29 @@ public class coral_controller : MonoBehaviour {
 	public float food_avariable_timer_max = 5.0f;
 	public float food_avariable_timer_curr = 5.0f;
 	public bool food_update_enabled = true;
+    public bool HasGarbage = false;
 
 	public int inc_player_hung  = 5;
+
+
+	public float timer_hralth_dec_max = 1.0f;
+	private float timer_hralth_dec_curr = 1.0f;
+	public float health_decrease_val = 0.3f;
+	public bool coral_dead = false;
+	public void reset(){
+
+		coral_dead = false;
+		coral_health_percentage = 1.0f;
+		anim.SetBool("is_wedel", true);
+		anim.speed = 1.0f;
+		coral_food_particle_system.GetComponent<ParticleSystem>().Stop();
+		coral_health_bar_object.GetComponent<Slider>().value = 1.0f -coral_health_percentage;
+	}
 	// Use this for initialization
 	void Start () {
 
-
-
+		coral_dead = false;
+		coral_health_percentage = 1.0f;
 		if(coral_model_holder == null){
 			Debug.LogError("please spcify a model for the corals");
 		}
@@ -45,6 +61,25 @@ public class coral_controller : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+
+
+
+
+		if(API.Current.Globals.game_state != Globals.GAME_STATES.GS_PLAYING){return;}
+
+
+
+
+		if(HasGarbage){
+			if(timer_hralth_dec_curr >= 0.0f){
+			if(timer_hralth_dec_curr < 0.0f){
+				timer_hralth_dec_max = timer_hralth_dec_curr;
+					coral_health_percentage -= health_decrease_val;
+				}
+			}
+		}
+
 		if(food_update_enabled){
 			food_avariable_timer_curr -= Time.deltaTime;
 			if(food_avariable_timer_curr <= 0.0f){
@@ -59,6 +94,7 @@ public class coral_controller : MonoBehaviour {
 			//TODO DIE
 			anim.SetBool("is_wedel", false);
 			food_update_enabled = false;
+			coral_dead = true;
 		}
 	}
 
