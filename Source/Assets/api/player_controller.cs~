@@ -34,6 +34,8 @@ public class player_controller : MonoBehaviour {
 		anim.SetBool("is_schnipping", false);
 		anim.SetBool("is_moving_left", false);
 		anim.SetBool("is_moving_right", false);
+		anim.SetBool("is_schnipping_left", true);
+		anim.SetBool("is_schnipping_right", true);
 		this.name = "player";
 		should_have_position = this.transform.position;
 
@@ -75,6 +77,8 @@ public class player_controller : MonoBehaviour {
 				anim.SetBool("is_idle", true);
 				anim.SetBool("is_moving_left", false);
 				anim.SetBool("is_moving_right", false);
+				anim.SetBool("is_schnipping_left", true);
+				anim.SetBool("is_schnipping_right", true);
 			}else{
 				anim.SetBool("is_idle", false);
 
@@ -96,7 +100,8 @@ public class player_controller : MonoBehaviour {
 
 			if(schnipping_timer_curr < 0.0f){
 				enable_movement = true;
-				anim.SetBool("is_schnipping", false);
+				anim.SetBool("is_schnipping_left", false);
+				anim.SetBool("is_schnipping_right", false);
 				if(garbage_to_del != null){
 				garbage_to_del.GetComponent<GarbageItem>().remove_item();
 					garbage_to_del = null;
@@ -117,9 +122,18 @@ public class player_controller : MonoBehaviour {
 		garbage_to_del = _other;
 		anim.SetBool("is_idle", false);
 		anim.SetBool("is_eating", false);
-		anim.SetBool("is_schnipping", true);
+
 		anim.SetBool("is_moving_left", false);
 		anim.SetBool("is_moving_right", false);
+
+		if(this.transform.position.x > _other.gameObject.transform.position.x){
+		anim.SetBool("is_schnipping_left", true);
+		}else{
+		anim.SetBool("is_schnipping_right", true);
+		}
+
+
+
 
 	}
 
