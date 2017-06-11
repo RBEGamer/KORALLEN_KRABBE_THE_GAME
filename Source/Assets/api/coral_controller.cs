@@ -17,6 +17,7 @@ public class coral_controller : MonoBehaviour {
 	public float food_avariable_timer_max = 5.0f;
 	public float food_avariable_timer_curr = 5.0f;
 	public bool food_update_enabled = true;
+    public bool HasGarbage = false;
 
 	public int inc_player_hung  = 5;
 	// Use this for initialization
