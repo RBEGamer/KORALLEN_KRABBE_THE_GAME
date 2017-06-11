@@ -5,8 +5,8 @@ using UnityEngine;
 public class menu_manager : MonoBehaviour {
 
 	// Use this for initialization
-	void Start () {
-		
+	void Awake () {
+		API.Current.Globals.game_state = Globals.GAME_STATES.GS_MENU;
 	}
 	
 	// Update is called once per frame
@@ -18,7 +18,7 @@ public class menu_manager : MonoBehaviour {
 
 
 	public void play_clicked(){
-
+		API.Current.Globals.game_state = Globals.GAME_STATES.GS_SPAWN;
 		this.gameObject.SetActive(false);
 
 	}
@@ -26,7 +26,7 @@ public class menu_manager : MonoBehaviour {
 
 
 	public void credits_clicked(){
-
+		API.Current.Globals.game_state = Globals.GAME_STATES.GS_MENU;
 		this.gameObject.SetActive(false);
 
 	}
