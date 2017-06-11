@@ -32,7 +32,8 @@ public class player_controller : MonoBehaviour {
 		anim.SetBool("is_idle", true);
 		anim.SetBool("is_eating", false);
 		anim.SetBool("is_schnipping", false);
-		anim.SetBool("is_moving", false);
+		anim.SetBool("is_moving_left", false);
+		anim.SetBool("is_moving_right", false);
 		this.name = "player";
 		should_have_position = this.transform.position;
 
@@ -64,25 +65,28 @@ public class player_controller : MonoBehaviour {
 
 
 
-		if((should_have_position - this.gameObject.transform.position).magnitude > 0.0f){
-			anim.SetBool("is_idle", false);
-			anim.SetBool("is_moving", true);
-		}else{
-			anim.SetBool("is_idle", true);
-			anim.SetBool("is_moving", false);
-		}
+
 
 
 		if(enable_movement){
 		this.transform.position = Vector3.Lerp(this.transform.position, should_have_position, movement_speed);
-			if((should_have_position - this.gameObject.transform.position).magnitude > 0.0f){
-				anim.SetBool("is_idle", false);
-				anim.SetBool("is_moving", true);
-			}else{
-				anim.SetBool("is_idle", true);
-				anim.SetBool("is_moving", false);
-			}
+			if(!((should_have_position - this.gameObject.transform.position).x > 0.1f || (should_have_position - this.gameObject.transform.position).x < -0.1f)){
 
+				anim.SetBool("is_idle", true);
+				anim.SetBool("is_moving_left", false);
+				anim.SetBool("is_moving_right", false);
+			}else{
+				anim.SetBool("is_idle", false);
+
+
+				if(should_have_position.x > this.gameObject.transform.position.x){
+				anim.SetBool("is_moving_left", true);
+				}else{
+				anim.SetBool("is_moving_right", true);
+				}
+
+			}
+		
 		}
 
 
@@ -114,7 +118,8 @@ public class player_controller : MonoBehaviour {
 		anim.SetBool("is_idle", false);
 		anim.SetBool("is_eating", false);
 		anim.SetBool("is_schnipping", true);
-		anim.SetBool("is_moving", false);
+		anim.SetBool("is_moving_left", false);
+		anim.SetBool("is_moving_right", false);
 
 	}
 
