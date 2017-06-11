@@ -15,56 +15,9 @@ Platform assembly: C:\Users\Konst\Source\Repos\KORALLEN_KRABBE_THE_GAME\Source\B
 Loading C:\Users\Konst\Source\Repos\KORALLEN_KRABBE_THE_GAME\Source\Builds\Windows\KK_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Konst\Source\Repos\KORALLEN_KRABBE_THE_GAME\Source\Builds\Windows\KK_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Konst\Source\Repos\KORALLEN_KRABBE_THE_GAME\Source\Builds\Windows\KK_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.119 seconds
+- Completed reload, in  0.122 seconds
 Platform assembly: C:\Users\Konst\Source\Repos\KORALLEN_KRABBE_THE_GAME\Source\Builds\Windows\KK_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Konst\Source\Repos\KORALLEN_KRABBE_THE_GAME\Source\Builds\Windows\KK_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 120Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-<RI> Initialized touch support.
-The referenced script on this Behaviour (Game Object 'point light') is missing!
- 
-(Filename:  Line: 1743)
-
-The referenced script on this Behaviour (Game Object 'point light') is missing!
- 
-(Filename:  Line: 1743)
-
-The referenced script on this Behaviour (Game Object 'point light') is missing!
- 
-(Filename:  Line: 1743)
-
-The referenced script on this Behaviour (Game Object 'point light') is missing!
- 
-(Filename:  Line: 1743)
-
-UnloadTime: 1.078700 ms
-Setting up 4 worker threads for Enlighten.
-  Thread -> id: 38c8 -> priority: 1 
-  Thread -> id: 24a8 -> priority: 1 
-  Thread -> id: 59d4 -> priority: 1 
-  Thread -> id: 3e4c -> priority: 1 
-bla
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-bla
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-bla
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-bla
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-bla
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-bla
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-

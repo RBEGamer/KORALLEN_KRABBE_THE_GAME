@@ -56,7 +56,8 @@ public class coral_controller : MonoBehaviour {
 		coral_health_bar_object.GetComponent<Slider>().value = 1.0f -coral_health_percentage;
 
 		food_avariable_timer_curr = food_avariable_timer_max;
-	}
+        timer_hralth_dec_curr = timer_hralth_dec_max;
+    }
 
 
 
@@ -74,9 +75,14 @@ public class coral_controller : MonoBehaviour {
 
 		if(HasGarbage){
 			if(timer_hralth_dec_curr >= 0.0f){
+
+                timer_hralth_dec_curr -= Time.deltaTime;
+
 				if(timer_hralth_dec_curr < 0.0f){
-					timer_hralth_dec_max = timer_hralth_dec_curr;
+                    timer_hralth_dec_curr = timer_hralth_dec_max;
 					coral_health_percentage -= health_decrease_val;
+
+                    set_coral_health(coral_health_percentage);
 				}
 			}
 		}
