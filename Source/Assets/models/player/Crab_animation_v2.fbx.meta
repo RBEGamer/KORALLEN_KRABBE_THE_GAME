@@ -1,0 +1,1758 @@
+fileFormatVersion: 2
+guid: 992036832b7ee43b7921402828cec936
+timeCreated: 1497170216
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm_l
+    100002: Arm_r
+    100004: Armature.140
+    100006: Body
+    100008: Bone.010
+    100010: Bone.012
+    100012: Bone.012_end
+    100014: Bone.022
+    100016: Bone.024
+    100018: Bone.024_end
+    100020: Bone.025
+    100022: Bone.025_end
+    100024: Bone.026
+    100026: Bone.026_end
+    100028: Bone.027
+    100030: Bone.027_end
+    100032: Bone.028
+    100034: Bone.028_end
+    100036: Bone.029
+    100038: Bone.029_end
+    100040: Bone.030
+    100042: Bone.030_end
+    100044: Bone.031
+    100046: Bone.031_end
+    100048: Bone.032
+    100050: Bone.032_end
+    100052: Claw2_l
+    100054: Claw2_l_end
+    100056: Claw2_r
+    100058: Claw2_r_end
+    100060: Claw_l
+    100062: Claw_r
+    100064: //RootNode
+    100066: Cube.350
+    100068: Eye_l
+    100070: Eye_l_end
+    100072: Eye_r
+    100074: Eye_r_end
+    100076: Foot1_l
+    100078: Foot1_l_end
+    100080: Foot1_r
+    100082: Foot1_r_end
+    100084: Foot2_l
+    100086: Foot2_l_end
+    100088: Foot2_r
+    100090: Foot2_r_end
+    100092: Foot3_l
+    100094: Foot3_l_end
+    100096: Foot3_r
+    100098: Foot3_r_end
+    100100: Leg1_l
+    100102: Leg1_r
+    100104: Leg2_l
+    100106: Leg2_r
+    100108: Leg3_l
+    100110: Leg3_r
+    400000: Arm_l
+    400002: Arm_r
+    400004: Armature.140
+    400006: Body
+    400008: Bone.010
+    400010: Bone.012
+    400012: Bone.012_end
+    400014: Bone.022
+    400016: Bone.024
+    400018: Bone.024_end
+    400020: Bone.025
+    400022: Bone.025_end
+    400024: Bone.026
+    400026: Bone.026_end
+    400028: Bone.027
+    400030: Bone.027_end
+    400032: Bone.028
+    400034: Bone.028_end
+    400036: Bone.029
+    400038: Bone.029_end
+    400040: Bone.030
+    400042: Bone.030_end
+    400044: Bone.031
+    400046: Bone.031_end
+    400048: Bone.032
+    400050: Bone.032_end
+    400052: Claw2_l
+    400054: Claw2_l_end
+    400056: Claw2_r
+    400058: Claw2_r_end
+    400060: Claw_l
+    400062: Claw_r
+    400064: //RootNode
+    400066: Cube.350
+    400068: Eye_l
+    400070: Eye_l_end
+    400072: Eye_r
+    400074: Eye_r_end
+    400076: Foot1_l
+    400078: Foot1_l_end
+    400080: Foot1_r
+    400082: Foot1_r_end
+    400084: Foot2_l
+    400086: Foot2_l_end
+    400088: Foot2_r
+    400090: Foot2_r_end
+    400092: Foot3_l
+    400094: Foot3_l_end
+    400096: Foot3_r
+    400098: Foot3_r_end
+    400100: Leg1_l
+    400102: Leg1_r
+    400104: Leg2_l
+    400106: Leg2_r
+    400108: Leg3_l
+    400110: Leg3_r
+    4300000: Cube.350
+    7400000: TPOSE
+    7400002: IDLE_1
+    7400004: Armature.140|Cube.312Action
+    7400006: Armature.140|Cube.313Action
+    7400008: Armature.140|Cube.314Action
+    7400010: Armature.140|Cube.315Action
+    7400012: Armature.140|Cube.316Action
+    7400014: Armature.140|Cube.339Action
+    7400016: Armature.140|SeegrassAction
+    7400018: Cube.350|Armature.127Action
+    7400020: Cube.350|Cube.312Action
+    7400022: Cube.350|Cube.313Action
+    7400024: Cube.350|Cube.314Action
+    7400026: Cube.350|Cube.315Action
+    7400028: Cube.350|Cube.316Action
+    7400030: Cube.350|Cube.339Action
+    7400032: Cube.350|SeegrassAction
+    7400034: IDLE_2
+    7400036: IDLE_3
+    7400038: IDLE_4
+    7400040: WALK_RIGHT
+    7400042: WALK_LEFT
+    7400044: CLAW_LEFT_1
+    7400046: CLAW_LEFT_2
+    7400048: CLAW_RIGHT_1
+    7400050: CLAW_RIGHT_2
+    9500000: //RootNode
+    13700000: Cube.350
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: TPOSE
+      takeName: Armature.140|Armature.127Action
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.140
+        weight: 1
+      - path: Armature.140/Body
+        weight: 1
+      - path: Armature.140/Body/Arm_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022/Claw2_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022/Claw2_l/Claw2_l_end
+        weight: 1
+      - path: Armature.140/Body/Arm_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010/Claw2_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010/Claw2_r/Claw2_r_end
+        weight: 1
+      - path: Armature.140/Body/Eye_l
+        weight: 1
+      - path: Armature.140/Body/Eye_l/Eye_l_end
+        weight: 1
+      - path: Armature.140/Body/Eye_r
+        weight: 1
+      - path: Armature.140/Body/Eye_r/Eye_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg1_l
+        weight: 1
+      - path: Armature.140/Body/Leg1_l/Foot1_l
+        weight: 1
+      - path: Armature.140/Body/Leg1_l/Foot1_l/Foot1_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg1_r
+        weight: 1
+      - path: Armature.140/Body/Leg1_r/Foot1_r
+        weight: 1
+      - path: Armature.140/Body/Leg1_r/Foot1_r/Foot1_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg2_l
+        weight: 1
+      - path: Armature.140/Body/Leg2_l/Foot2_l
+        weight: 1
+      - path: Armature.140/Body/Leg2_l/Foot2_l/Foot2_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg2_r
+        weight: 1
+      - path: Armature.140/Body/Leg2_r/Foot2_r
+        weight: 1
+      - path: Armature.140/Body/Leg2_r/Foot2_r/Foot2_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg3_l
+        weight: 1
+      - path: Armature.140/Body/Leg3_l/Foot3_l
+        weight: 1
+      - path: Armature.140/Body/Leg3_l/Foot3_l/Foot3_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg3_r
+        weight: 1
+      - path: Armature.140/Body/Leg3_r/Foot3_r
+        weight: 1
+      - path: Armature.140/Body/Leg3_r/Foot3_r/Foot3_r_end
+        weight: 1
+      - path: Armature.140/Bone.012
+        weight: 1
+      - path: Armature.140/Bone.012/Bone.012_end
+        weight: 1
+      - path: Armature.140/Bone.024
+        weight: 1
+      - path: Armature.140/Bone.024/Bone.024_end
+        weight: 1
+      - path: Armature.140/Bone.025
+        weight: 1
+      - path: Armature.140/Bone.025/Bone.025_end
+        weight: 1
+      - path: Armature.140/Bone.026
+        weight: 1
+      - path: Armature.140/Bone.026/Bone.026_end
+        weight: 1
+      - path: Armature.140/Bone.027
+        weight: 1
+      - path: Armature.140/Bone.027/Bone.027_end
+        weight: 1
+      - path: Armature.140/Bone.028
+        weight: 1
+      - path: Armature.140/Bone.028/Bone.028_end
+        weight: 1
+      - path: Armature.140/Bone.029
+        weight: 1
+      - path: Armature.140/Bone.029/Bone.029_end
+        weight: 1
+      - path: Armature.140/Bone.030
+        weight: 1
+      - path: Armature.140/Bone.030/Bone.030_end
+        weight: 1
+      - path: Armature.140/Bone.031
+        weight: 1
+      - path: Armature.140/Bone.031/Bone.031_end
+        weight: 1
+      - path: Armature.140/Bone.032
+        weight: 1
+      - path: Armature.140/Bone.032/Bone.032_end
+        weight: 1
+      - path: Cube.350
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: IDLE_1
+      takeName: Armature.140|Armature.140Action.001
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.140
+        weight: 1
+      - path: Armature.140/Body
+        weight: 1
+      - path: Armature.140/Body/Arm_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022/Claw2_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022/Claw2_l/Claw2_l_end
+        weight: 1
+      - path: Armature.140/Body/Arm_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010/Claw2_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010/Claw2_r/Claw2_r_end
+        weight: 1
+      - path: Armature.140/Body/Eye_l
+        weight: 1
+      - path: Armature.140/Body/Eye_l/Eye_l_end
+        weight: 1
+      - path: Armature.140/Body/Eye_r
+        weight: 1
+      - path: Armature.140/Body/Eye_r/Eye_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg1_l
+        weight: 1
+      - path: Armature.140/Body/Leg1_l/Foot1_l
+        weight: 1
+      - path: Armature.140/Body/Leg1_l/Foot1_l/Foot1_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg1_r
+        weight: 1
+      - path: Armature.140/Body/Leg1_r/Foot1_r
+        weight: 1
+      - path: Armature.140/Body/Leg1_r/Foot1_r/Foot1_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg2_l
+        weight: 1
+      - path: Armature.140/Body/Leg2_l/Foot2_l
+        weight: 1
+      - path: Armature.140/Body/Leg2_l/Foot2_l/Foot2_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg2_r
+        weight: 1
+      - path: Armature.140/Body/Leg2_r/Foot2_r
+        weight: 1
+      - path: Armature.140/Body/Leg2_r/Foot2_r/Foot2_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg3_l
+        weight: 1
+      - path: Armature.140/Body/Leg3_l/Foot3_l
+        weight: 1
+      - path: Armature.140/Body/Leg3_l/Foot3_l/Foot3_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg3_r
+        weight: 1
+      - path: Armature.140/Body/Leg3_r/Foot3_r
+        weight: 1
+      - path: Armature.140/Body/Leg3_r/Foot3_r/Foot3_r_end
+        weight: 1
+      - path: Armature.140/Bone.012
+        weight: 1
+      - path: Armature.140/Bone.012/Bone.012_end
+        weight: 1
+      - path: Armature.140/Bone.024
+        weight: 1
+      - path: Armature.140/Bone.024/Bone.024_end
+        weight: 1
+      - path: Armature.140/Bone.025
+        weight: 1
+      - path: Armature.140/Bone.025/Bone.025_end
+        weight: 1
+      - path: Armature.140/Bone.026
+        weight: 1
+      - path: Armature.140/Bone.026/Bone.026_end
+        weight: 1
+      - path: Armature.140/Bone.027
+        weight: 1
+      - path: Armature.140/Bone.027/Bone.027_end
+        weight: 1
+      - path: Armature.140/Bone.028
+        weight: 1
+      - path: Armature.140/Bone.028/Bone.028_end
+        weight: 1
+      - path: Armature.140/Bone.029
+        weight: 1
+      - path: Armature.140/Bone.029/Bone.029_end
+        weight: 1
+      - path: Armature.140/Bone.030
+        weight: 1
+      - path: Armature.140/Bone.030/Bone.030_end
+        weight: 1
+      - path: Armature.140/Bone.031
+        weight: 1
+      - path: Armature.140/Bone.031/Bone.031_end
+        weight: 1
+      - path: Armature.140/Bone.032
+        weight: 1
+      - path: Armature.140/Bone.032/Bone.032_end
+        weight: 1
+      - path: Cube.350
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: IDLE_2
+      takeName: Armature.140|Armature.140Action.001
+      firstFrame: 60
+      lastFrame: 179
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.140
+        weight: 1
+      - path: Armature.140/Body
+        weight: 1
+      - path: Armature.140/Body/Arm_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022/Claw2_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022/Claw2_l/Claw2_l_end
+        weight: 1
+      - path: Armature.140/Body/Arm_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010/Claw2_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010/Claw2_r/Claw2_r_end
+        weight: 1
+      - path: Armature.140/Body/Eye_l
+        weight: 1
+      - path: Armature.140/Body/Eye_l/Eye_l_end
+        weight: 1
+      - path: Armature.140/Body/Eye_r
+        weight: 1
+      - path: Armature.140/Body/Eye_r/Eye_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg1_l
+        weight: 1
+      - path: Armature.140/Body/Leg1_l/Foot1_l
+        weight: 1
+      - path: Armature.140/Body/Leg1_l/Foot1_l/Foot1_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg1_r
+        weight: 1
+      - path: Armature.140/Body/Leg1_r/Foot1_r
+        weight: 1
+      - path: Armature.140/Body/Leg1_r/Foot1_r/Foot1_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg2_l
+        weight: 1
+      - path: Armature.140/Body/Leg2_l/Foot2_l
+        weight: 1
+      - path: Armature.140/Body/Leg2_l/Foot2_l/Foot2_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg2_r
+        weight: 1
+      - path: Armature.140/Body/Leg2_r/Foot2_r
+        weight: 1
+      - path: Armature.140/Body/Leg2_r/Foot2_r/Foot2_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg3_l
+        weight: 1
+      - path: Armature.140/Body/Leg3_l/Foot3_l
+        weight: 1
+      - path: Armature.140/Body/Leg3_l/Foot3_l/Foot3_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg3_r
+        weight: 1
+      - path: Armature.140/Body/Leg3_r/Foot3_r
+        weight: 1
+      - path: Armature.140/Body/Leg3_r/Foot3_r/Foot3_r_end
+        weight: 1
+      - path: Armature.140/Bone.012
+        weight: 1
+      - path: Armature.140/Bone.012/Bone.012_end
+        weight: 1
+      - path: Armature.140/Bone.024
+        weight: 1
+      - path: Armature.140/Bone.024/Bone.024_end
+        weight: 1
+      - path: Armature.140/Bone.025
+        weight: 1
+      - path: Armature.140/Bone.025/Bone.025_end
+        weight: 1
+      - path: Armature.140/Bone.026
+        weight: 1
+      - path: Armature.140/Bone.026/Bone.026_end
+        weight: 1
+      - path: Armature.140/Bone.027
+        weight: 1
+      - path: Armature.140/Bone.027/Bone.027_end
+        weight: 1
+      - path: Armature.140/Bone.028
+        weight: 1
+      - path: Armature.140/Bone.028/Bone.028_end
+        weight: 1
+      - path: Armature.140/Bone.029
+        weight: 1
+      - path: Armature.140/Bone.029/Bone.029_end
+        weight: 1
+      - path: Armature.140/Bone.030
+        weight: 1
+      - path: Armature.140/Bone.030/Bone.030_end
+        weight: 1
+      - path: Armature.140/Bone.031
+        weight: 1
+      - path: Armature.140/Bone.031/Bone.031_end
+        weight: 1
+      - path: Armature.140/Bone.032
+        weight: 1
+      - path: Armature.140/Bone.032/Bone.032_end
+        weight: 1
+      - path: Cube.350
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: IDLE_3
+      takeName: Armature.140|Armature.140Action.001
+      firstFrame: 180
+      lastFrame: 239
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.140
+        weight: 1
+      - path: Armature.140/Body
+        weight: 1
+      - path: Armature.140/Body/Arm_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022/Claw2_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022/Claw2_l/Claw2_l_end
+        weight: 1
+      - path: Armature.140/Body/Arm_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010/Claw2_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010/Claw2_r/Claw2_r_end
+        weight: 1
+      - path: Armature.140/Body/Eye_l
+        weight: 1
+      - path: Armature.140/Body/Eye_l/Eye_l_end
+        weight: 1
+      - path: Armature.140/Body/Eye_r
+        weight: 1
+      - path: Armature.140/Body/Eye_r/Eye_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg1_l
+        weight: 1
+      - path: Armature.140/Body/Leg1_l/Foot1_l
+        weight: 1
+      - path: Armature.140/Body/Leg1_l/Foot1_l/Foot1_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg1_r
+        weight: 1
+      - path: Armature.140/Body/Leg1_r/Foot1_r
+        weight: 1
+      - path: Armature.140/Body/Leg1_r/Foot1_r/Foot1_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg2_l
+        weight: 1
+      - path: Armature.140/Body/Leg2_l/Foot2_l
+        weight: 1
+      - path: Armature.140/Body/Leg2_l/Foot2_l/Foot2_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg2_r
+        weight: 1
+      - path: Armature.140/Body/Leg2_r/Foot2_r
+        weight: 1
+      - path: Armature.140/Body/Leg2_r/Foot2_r/Foot2_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg3_l
+        weight: 1
+      - path: Armature.140/Body/Leg3_l/Foot3_l
+        weight: 1
+      - path: Armature.140/Body/Leg3_l/Foot3_l/Foot3_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg3_r
+        weight: 1
+      - path: Armature.140/Body/Leg3_r/Foot3_r
+        weight: 1
+      - path: Armature.140/Body/Leg3_r/Foot3_r/Foot3_r_end
+        weight: 1
+      - path: Armature.140/Bone.012
+        weight: 1
+      - path: Armature.140/Bone.012/Bone.012_end
+        weight: 1
+      - path: Armature.140/Bone.024
+        weight: 1
+      - path: Armature.140/Bone.024/Bone.024_end
+        weight: 1
+      - path: Armature.140/Bone.025
+        weight: 1
+      - path: Armature.140/Bone.025/Bone.025_end
+        weight: 1
+      - path: Armature.140/Bone.026
+        weight: 1
+      - path: Armature.140/Bone.026/Bone.026_end
+        weight: 1
+      - path: Armature.140/Bone.027
+        weight: 1
+      - path: Armature.140/Bone.027/Bone.027_end
+        weight: 1
+      - path: Armature.140/Bone.028
+        weight: 1
+      - path: Armature.140/Bone.028/Bone.028_end
+        weight: 1
+      - path: Armature.140/Bone.029
+        weight: 1
+      - path: Armature.140/Bone.029/Bone.029_end
+        weight: 1
+      - path: Armature.140/Bone.030
+        weight: 1
+      - path: Armature.140/Bone.030/Bone.030_end
+        weight: 1
+      - path: Armature.140/Bone.031
+        weight: 1
+      - path: Armature.140/Bone.031/Bone.031_end
+        weight: 1
+      - path: Armature.140/Bone.032
+        weight: 1
+      - path: Armature.140/Bone.032/Bone.032_end
+        weight: 1
+      - path: Cube.350
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: IDLE_4
+      takeName: Armature.140|Armature.140Action.001
+      firstFrame: 240
+      lastFrame: 299
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.140
+        weight: 1
+      - path: Armature.140/Body
+        weight: 1
+      - path: Armature.140/Body/Arm_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022/Claw2_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022/Claw2_l/Claw2_l_end
+        weight: 1
+      - path: Armature.140/Body/Arm_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010/Claw2_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010/Claw2_r/Claw2_r_end
+        weight: 1
+      - path: Armature.140/Body/Eye_l
+        weight: 1
+      - path: Armature.140/Body/Eye_l/Eye_l_end
+        weight: 1
+      - path: Armature.140/Body/Eye_r
+        weight: 1
+      - path: Armature.140/Body/Eye_r/Eye_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg1_l
+        weight: 1
+      - path: Armature.140/Body/Leg1_l/Foot1_l
+        weight: 1
+      - path: Armature.140/Body/Leg1_l/Foot1_l/Foot1_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg1_r
+        weight: 1
+      - path: Armature.140/Body/Leg1_r/Foot1_r
+        weight: 1
+      - path: Armature.140/Body/Leg1_r/Foot1_r/Foot1_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg2_l
+        weight: 1
+      - path: Armature.140/Body/Leg2_l/Foot2_l
+        weight: 1
+      - path: Armature.140/Body/Leg2_l/Foot2_l/Foot2_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg2_r
+        weight: 1
+      - path: Armature.140/Body/Leg2_r/Foot2_r
+        weight: 1
+      - path: Armature.140/Body/Leg2_r/Foot2_r/Foot2_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg3_l
+        weight: 1
+      - path: Armature.140/Body/Leg3_l/Foot3_l
+        weight: 1
+      - path: Armature.140/Body/Leg3_l/Foot3_l/Foot3_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg3_r
+        weight: 1
+      - path: Armature.140/Body/Leg3_r/Foot3_r
+        weight: 1
+      - path: Armature.140/Body/Leg3_r/Foot3_r/Foot3_r_end
+        weight: 1
+      - path: Armature.140/Bone.012
+        weight: 1
+      - path: Armature.140/Bone.012/Bone.012_end
+        weight: 1
+      - path: Armature.140/Bone.024
+        weight: 1
+      - path: Armature.140/Bone.024/Bone.024_end
+        weight: 1
+      - path: Armature.140/Bone.025
+        weight: 1
+      - path: Armature.140/Bone.025/Bone.025_end
+        weight: 1
+      - path: Armature.140/Bone.026
+        weight: 1
+      - path: Armature.140/Bone.026/Bone.026_end
+        weight: 1
+      - path: Armature.140/Bone.027
+        weight: 1
+      - path: Armature.140/Bone.027/Bone.027_end
+        weight: 1
+      - path: Armature.140/Bone.028
+        weight: 1
+      - path: Armature.140/Bone.028/Bone.028_end
+        weight: 1
+      - path: Armature.140/Bone.029
+        weight: 1
+      - path: Armature.140/Bone.029/Bone.029_end
+        weight: 1
+      - path: Armature.140/Bone.030
+        weight: 1
+      - path: Armature.140/Bone.030/Bone.030_end
+        weight: 1
+      - path: Armature.140/Bone.031
+        weight: 1
+      - path: Armature.140/Bone.031/Bone.031_end
+        weight: 1
+      - path: Armature.140/Bone.032
+        weight: 1
+      - path: Armature.140/Bone.032/Bone.032_end
+        weight: 1
+      - path: Cube.350
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WALK_RIGHT
+      takeName: Armature.140|Armature.140Action.001
+      firstFrame: 300
+      lastFrame: 359
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.140
+        weight: 1
+      - path: Armature.140/Body
+        weight: 1
+      - path: Armature.140/Body/Arm_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022/Claw2_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022/Claw2_l/Claw2_l_end
+        weight: 1
+      - path: Armature.140/Body/Arm_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010/Claw2_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010/Claw2_r/Claw2_r_end
+        weight: 1
+      - path: Armature.140/Body/Eye_l
+        weight: 1
+      - path: Armature.140/Body/Eye_l/Eye_l_end
+        weight: 1
+      - path: Armature.140/Body/Eye_r
+        weight: 1
+      - path: Armature.140/Body/Eye_r/Eye_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg1_l
+        weight: 1
+      - path: Armature.140/Body/Leg1_l/Foot1_l
+        weight: 1
+      - path: Armature.140/Body/Leg1_l/Foot1_l/Foot1_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg1_r
+        weight: 1
+      - path: Armature.140/Body/Leg1_r/Foot1_r
+        weight: 1
+      - path: Armature.140/Body/Leg1_r/Foot1_r/Foot1_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg2_l
+        weight: 1
+      - path: Armature.140/Body/Leg2_l/Foot2_l
+        weight: 1
+      - path: Armature.140/Body/Leg2_l/Foot2_l/Foot2_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg2_r
+        weight: 1
+      - path: Armature.140/Body/Leg2_r/Foot2_r
+        weight: 1
+      - path: Armature.140/Body/Leg2_r/Foot2_r/Foot2_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg3_l
+        weight: 1
+      - path: Armature.140/Body/Leg3_l/Foot3_l
+        weight: 1
+      - path: Armature.140/Body/Leg3_l/Foot3_l/Foot3_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg3_r
+        weight: 1
+      - path: Armature.140/Body/Leg3_r/Foot3_r
+        weight: 1
+      - path: Armature.140/Body/Leg3_r/Foot3_r/Foot3_r_end
+        weight: 1
+      - path: Armature.140/Bone.012
+        weight: 1
+      - path: Armature.140/Bone.012/Bone.012_end
+        weight: 1
+      - path: Armature.140/Bone.024
+        weight: 1
+      - path: Armature.140/Bone.024/Bone.024_end
+        weight: 1
+      - path: Armature.140/Bone.025
+        weight: 1
+      - path: Armature.140/Bone.025/Bone.025_end
+        weight: 1
+      - path: Armature.140/Bone.026
+        weight: 1
+      - path: Armature.140/Bone.026/Bone.026_end
+        weight: 1
+      - path: Armature.140/Bone.027
+        weight: 1
+      - path: Armature.140/Bone.027/Bone.027_end
+        weight: 1
+      - path: Armature.140/Bone.028
+        weight: 1
+      - path: Armature.140/Bone.028/Bone.028_end
+        weight: 1
+      - path: Armature.140/Bone.029
+        weight: 1
+      - path: Armature.140/Bone.029/Bone.029_end
+        weight: 1
+      - path: Armature.140/Bone.030
+        weight: 1
+      - path: Armature.140/Bone.030/Bone.030_end
+        weight: 1
+      - path: Armature.140/Bone.031
+        weight: 1
+      - path: Armature.140/Bone.031/Bone.031_end
+        weight: 1
+      - path: Armature.140/Bone.032
+        weight: 1
+      - path: Armature.140/Bone.032/Bone.032_end
+        weight: 1
+      - path: Cube.350
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WALK_LEFT
+      takeName: Armature.140|Armature.140Action.001
+      firstFrame: 360
+      lastFrame: 419
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.140
+        weight: 1
+      - path: Armature.140/Body
+        weight: 1
+      - path: Armature.140/Body/Arm_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022/Claw2_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022/Claw2_l/Claw2_l_end
+        weight: 1
+      - path: Armature.140/Body/Arm_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010/Claw2_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010/Claw2_r/Claw2_r_end
+        weight: 1
+      - path: Armature.140/Body/Eye_l
+        weight: 1
+      - path: Armature.140/Body/Eye_l/Eye_l_end
+        weight: 1
+      - path: Armature.140/Body/Eye_r
+        weight: 1
+      - path: Armature.140/Body/Eye_r/Eye_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg1_l
+        weight: 1
+      - path: Armature.140/Body/Leg1_l/Foot1_l
+        weight: 1
+      - path: Armature.140/Body/Leg1_l/Foot1_l/Foot1_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg1_r
+        weight: 1
+      - path: Armature.140/Body/Leg1_r/Foot1_r
+        weight: 1
+      - path: Armature.140/Body/Leg1_r/Foot1_r/Foot1_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg2_l
+        weight: 1
+      - path: Armature.140/Body/Leg2_l/Foot2_l
+        weight: 1
+      - path: Armature.140/Body/Leg2_l/Foot2_l/Foot2_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg2_r
+        weight: 1
+      - path: Armature.140/Body/Leg2_r/Foot2_r
+        weight: 1
+      - path: Armature.140/Body/Leg2_r/Foot2_r/Foot2_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg3_l
+        weight: 1
+      - path: Armature.140/Body/Leg3_l/Foot3_l
+        weight: 1
+      - path: Armature.140/Body/Leg3_l/Foot3_l/Foot3_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg3_r
+        weight: 1
+      - path: Armature.140/Body/Leg3_r/Foot3_r
+        weight: 1
+      - path: Armature.140/Body/Leg3_r/Foot3_r/Foot3_r_end
+        weight: 1
+      - path: Armature.140/Bone.012
+        weight: 1
+      - path: Armature.140/Bone.012/Bone.012_end
+        weight: 1
+      - path: Armature.140/Bone.024
+        weight: 1
+      - path: Armature.140/Bone.024/Bone.024_end
+        weight: 1
+      - path: Armature.140/Bone.025
+        weight: 1
+      - path: Armature.140/Bone.025/Bone.025_end
+        weight: 1
+      - path: Armature.140/Bone.026
+        weight: 1
+      - path: Armature.140/Bone.026/Bone.026_end
+        weight: 1
+      - path: Armature.140/Bone.027
+        weight: 1
+      - path: Armature.140/Bone.027/Bone.027_end
+        weight: 1
+      - path: Armature.140/Bone.028
+        weight: 1
+      - path: Armature.140/Bone.028/Bone.028_end
+        weight: 1
+      - path: Armature.140/Bone.029
+        weight: 1
+      - path: Armature.140/Bone.029/Bone.029_end
+        weight: 1
+      - path: Armature.140/Bone.030
+        weight: 1
+      - path: Armature.140/Bone.030/Bone.030_end
+        weight: 1
+      - path: Armature.140/Bone.031
+        weight: 1
+      - path: Armature.140/Bone.031/Bone.031_end
+        weight: 1
+      - path: Armature.140/Bone.032
+        weight: 1
+      - path: Armature.140/Bone.032/Bone.032_end
+        weight: 1
+      - path: Cube.350
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CLAW_LEFT_1
+      takeName: Armature.140|Armature.140Action.001
+      firstFrame: 419
+      lastFrame: 419
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.140
+        weight: 1
+      - path: Armature.140/Body
+        weight: 1
+      - path: Armature.140/Body/Arm_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022/Claw2_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022/Claw2_l/Claw2_l_end
+        weight: 1
+      - path: Armature.140/Body/Arm_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010/Claw2_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010/Claw2_r/Claw2_r_end
+        weight: 1
+      - path: Armature.140/Body/Eye_l
+        weight: 1
+      - path: Armature.140/Body/Eye_l/Eye_l_end
+        weight: 1
+      - path: Armature.140/Body/Eye_r
+        weight: 1
+      - path: Armature.140/Body/Eye_r/Eye_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg1_l
+        weight: 1
+      - path: Armature.140/Body/Leg1_l/Foot1_l
+        weight: 1
+      - path: Armature.140/Body/Leg1_l/Foot1_l/Foot1_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg1_r
+        weight: 1
+      - path: Armature.140/Body/Leg1_r/Foot1_r
+        weight: 1
+      - path: Armature.140/Body/Leg1_r/Foot1_r/Foot1_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg2_l
+        weight: 1
+      - path: Armature.140/Body/Leg2_l/Foot2_l
+        weight: 1
+      - path: Armature.140/Body/Leg2_l/Foot2_l/Foot2_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg2_r
+        weight: 1
+      - path: Armature.140/Body/Leg2_r/Foot2_r
+        weight: 1
+      - path: Armature.140/Body/Leg2_r/Foot2_r/Foot2_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg3_l
+        weight: 1
+      - path: Armature.140/Body/Leg3_l/Foot3_l
+        weight: 1
+      - path: Armature.140/Body/Leg3_l/Foot3_l/Foot3_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg3_r
+        weight: 1
+      - path: Armature.140/Body/Leg3_r/Foot3_r
+        weight: 1
+      - path: Armature.140/Body/Leg3_r/Foot3_r/Foot3_r_end
+        weight: 1
+      - path: Armature.140/Bone.012
+        weight: 1
+      - path: Armature.140/Bone.012/Bone.012_end
+        weight: 1
+      - path: Armature.140/Bone.024
+        weight: 1
+      - path: Armature.140/Bone.024/Bone.024_end
+        weight: 1
+      - path: Armature.140/Bone.025
+        weight: 1
+      - path: Armature.140/Bone.025/Bone.025_end
+        weight: 1
+      - path: Armature.140/Bone.026
+        weight: 1
+      - path: Armature.140/Bone.026/Bone.026_end
+        weight: 1
+      - path: Armature.140/Bone.027
+        weight: 1
+      - path: Armature.140/Bone.027/Bone.027_end
+        weight: 1
+      - path: Armature.140/Bone.028
+        weight: 1
+      - path: Armature.140/Bone.028/Bone.028_end
+        weight: 1
+      - path: Armature.140/Bone.029
+        weight: 1
+      - path: Armature.140/Bone.029/Bone.029_end
+        weight: 1
+      - path: Armature.140/Bone.030
+        weight: 1
+      - path: Armature.140/Bone.030/Bone.030_end
+        weight: 1
+      - path: Armature.140/Bone.031
+        weight: 1
+      - path: Armature.140/Bone.031/Bone.031_end
+        weight: 1
+      - path: Armature.140/Bone.032
+        weight: 1
+      - path: Armature.140/Bone.032/Bone.032_end
+        weight: 1
+      - path: Cube.350
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CLAW_LEFT_2
+      takeName: Armature.140|Armature.140Action.001
+      firstFrame: 419
+      lastFrame: 419
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.140
+        weight: 1
+      - path: Armature.140/Body
+        weight: 1
+      - path: Armature.140/Body/Arm_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022/Claw2_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022/Claw2_l/Claw2_l_end
+        weight: 1
+      - path: Armature.140/Body/Arm_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010/Claw2_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010/Claw2_r/Claw2_r_end
+        weight: 1
+      - path: Armature.140/Body/Eye_l
+        weight: 1
+      - path: Armature.140/Body/Eye_l/Eye_l_end
+        weight: 1
+      - path: Armature.140/Body/Eye_r
+        weight: 1
+      - path: Armature.140/Body/Eye_r/Eye_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg1_l
+        weight: 1
+      - path: Armature.140/Body/Leg1_l/Foot1_l
+        weight: 1
+      - path: Armature.140/Body/Leg1_l/Foot1_l/Foot1_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg1_r
+        weight: 1
+      - path: Armature.140/Body/Leg1_r/Foot1_r
+        weight: 1
+      - path: Armature.140/Body/Leg1_r/Foot1_r/Foot1_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg2_l
+        weight: 1
+      - path: Armature.140/Body/Leg2_l/Foot2_l
+        weight: 1
+      - path: Armature.140/Body/Leg2_l/Foot2_l/Foot2_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg2_r
+        weight: 1
+      - path: Armature.140/Body/Leg2_r/Foot2_r
+        weight: 1
+      - path: Armature.140/Body/Leg2_r/Foot2_r/Foot2_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg3_l
+        weight: 1
+      - path: Armature.140/Body/Leg3_l/Foot3_l
+        weight: 1
+      - path: Armature.140/Body/Leg3_l/Foot3_l/Foot3_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg3_r
+        weight: 1
+      - path: Armature.140/Body/Leg3_r/Foot3_r
+        weight: 1
+      - path: Armature.140/Body/Leg3_r/Foot3_r/Foot3_r_end
+        weight: 1
+      - path: Armature.140/Bone.012
+        weight: 1
+      - path: Armature.140/Bone.012/Bone.012_end
+        weight: 1
+      - path: Armature.140/Bone.024
+        weight: 1
+      - path: Armature.140/Bone.024/Bone.024_end
+        weight: 1
+      - path: Armature.140/Bone.025
+        weight: 1
+      - path: Armature.140/Bone.025/Bone.025_end
+        weight: 1
+      - path: Armature.140/Bone.026
+        weight: 1
+      - path: Armature.140/Bone.026/Bone.026_end
+        weight: 1
+      - path: Armature.140/Bone.027
+        weight: 1
+      - path: Armature.140/Bone.027/Bone.027_end
+        weight: 1
+      - path: Armature.140/Bone.028
+        weight: 1
+      - path: Armature.140/Bone.028/Bone.028_end
+        weight: 1
+      - path: Armature.140/Bone.029
+        weight: 1
+      - path: Armature.140/Bone.029/Bone.029_end
+        weight: 1
+      - path: Armature.140/Bone.030
+        weight: 1
+      - path: Armature.140/Bone.030/Bone.030_end
+        weight: 1
+      - path: Armature.140/Bone.031
+        weight: 1
+      - path: Armature.140/Bone.031/Bone.031_end
+        weight: 1
+      - path: Armature.140/Bone.032
+        weight: 1
+      - path: Armature.140/Bone.032/Bone.032_end
+        weight: 1
+      - path: Cube.350
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CLAW_RIGHT_1
+      takeName: Armature.140|Armature.140Action.001
+      firstFrame: 419
+      lastFrame: 419
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.140
+        weight: 1
+      - path: Armature.140/Body
+        weight: 1
+      - path: Armature.140/Body/Arm_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022/Claw2_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022/Claw2_l/Claw2_l_end
+        weight: 1
+      - path: Armature.140/Body/Arm_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010/Claw2_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010/Claw2_r/Claw2_r_end
+        weight: 1
+      - path: Armature.140/Body/Eye_l
+        weight: 1
+      - path: Armature.140/Body/Eye_l/Eye_l_end
+        weight: 1
+      - path: Armature.140/Body/Eye_r
+        weight: 1
+      - path: Armature.140/Body/Eye_r/Eye_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg1_l
+        weight: 1
+      - path: Armature.140/Body/Leg1_l/Foot1_l
+        weight: 1
+      - path: Armature.140/Body/Leg1_l/Foot1_l/Foot1_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg1_r
+        weight: 1
+      - path: Armature.140/Body/Leg1_r/Foot1_r
+        weight: 1
+      - path: Armature.140/Body/Leg1_r/Foot1_r/Foot1_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg2_l
+        weight: 1
+      - path: Armature.140/Body/Leg2_l/Foot2_l
+        weight: 1
+      - path: Armature.140/Body/Leg2_l/Foot2_l/Foot2_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg2_r
+        weight: 1
+      - path: Armature.140/Body/Leg2_r/Foot2_r
+        weight: 1
+      - path: Armature.140/Body/Leg2_r/Foot2_r/Foot2_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg3_l
+        weight: 1
+      - path: Armature.140/Body/Leg3_l/Foot3_l
+        weight: 1
+      - path: Armature.140/Body/Leg3_l/Foot3_l/Foot3_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg3_r
+        weight: 1
+      - path: Armature.140/Body/Leg3_r/Foot3_r
+        weight: 1
+      - path: Armature.140/Body/Leg3_r/Foot3_r/Foot3_r_end
+        weight: 1
+      - path: Armature.140/Bone.012
+        weight: 1
+      - path: Armature.140/Bone.012/Bone.012_end
+        weight: 1
+      - path: Armature.140/Bone.024
+        weight: 1
+      - path: Armature.140/Bone.024/Bone.024_end
+        weight: 1
+      - path: Armature.140/Bone.025
+        weight: 1
+      - path: Armature.140/Bone.025/Bone.025_end
+        weight: 1
+      - path: Armature.140/Bone.026
+        weight: 1
+      - path: Armature.140/Bone.026/Bone.026_end
+        weight: 1
+      - path: Armature.140/Bone.027
+        weight: 1
+      - path: Armature.140/Bone.027/Bone.027_end
+        weight: 1
+      - path: Armature.140/Bone.028
+        weight: 1
+      - path: Armature.140/Bone.028/Bone.028_end
+        weight: 1
+      - path: Armature.140/Bone.029
+        weight: 1
+      - path: Armature.140/Bone.029/Bone.029_end
+        weight: 1
+      - path: Armature.140/Bone.030
+        weight: 1
+      - path: Armature.140/Bone.030/Bone.030_end
+        weight: 1
+      - path: Armature.140/Bone.031
+        weight: 1
+      - path: Armature.140/Bone.031/Bone.031_end
+        weight: 1
+      - path: Armature.140/Bone.032
+        weight: 1
+      - path: Armature.140/Bone.032/Bone.032_end
+        weight: 1
+      - path: Cube.350
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CLAW_RIGHT_2
+      takeName: Armature.140|Armature.140Action.001
+      firstFrame: 419
+      lastFrame: 419
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature.140
+        weight: 1
+      - path: Armature.140/Body
+        weight: 1
+      - path: Armature.140/Body/Arm_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022/Claw2_l
+        weight: 1
+      - path: Armature.140/Body/Arm_l/Claw_l/Bone.022/Claw2_l/Claw2_l_end
+        weight: 1
+      - path: Armature.140/Body/Arm_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010/Claw2_r
+        weight: 1
+      - path: Armature.140/Body/Arm_r/Claw_r/Bone.010/Claw2_r/Claw2_r_end
+        weight: 1
+      - path: Armature.140/Body/Eye_l
+        weight: 1
+      - path: Armature.140/Body/Eye_l/Eye_l_end
+        weight: 1
+      - path: Armature.140/Body/Eye_r
+        weight: 1
+      - path: Armature.140/Body/Eye_r/Eye_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg1_l
+        weight: 1
+      - path: Armature.140/Body/Leg1_l/Foot1_l
+        weight: 1
+      - path: Armature.140/Body/Leg1_l/Foot1_l/Foot1_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg1_r
+        weight: 1
+      - path: Armature.140/Body/Leg1_r/Foot1_r
+        weight: 1
+      - path: Armature.140/Body/Leg1_r/Foot1_r/Foot1_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg2_l
+        weight: 1
+      - path: Armature.140/Body/Leg2_l/Foot2_l
+        weight: 1
+      - path: Armature.140/Body/Leg2_l/Foot2_l/Foot2_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg2_r
+        weight: 1
+      - path: Armature.140/Body/Leg2_r/Foot2_r
+        weight: 1
+      - path: Armature.140/Body/Leg2_r/Foot2_r/Foot2_r_end
+        weight: 1
+      - path: Armature.140/Body/Leg3_l
+        weight: 1
+      - path: Armature.140/Body/Leg3_l/Foot3_l
+        weight: 1
+      - path: Armature.140/Body/Leg3_l/Foot3_l/Foot3_l_end
+        weight: 1
+      - path: Armature.140/Body/Leg3_r
+        weight: 1
+      - path: Armature.140/Body/Leg3_r/Foot3_r
+        weight: 1
+      - path: Armature.140/Body/Leg3_r/Foot3_r/Foot3_r_end
+        weight: 1
+      - path: Armature.140/Bone.012
+        weight: 1
+      - path: Armature.140/Bone.012/Bone.012_end
+        weight: 1
+      - path: Armature.140/Bone.024
+        weight: 1
+      - path: Armature.140/Bone.024/Bone.024_end
+        weight: 1
+      - path: Armature.140/Bone.025
+        weight: 1
+      - path: Armature.140/Bone.025/Bone.025_end
+        weight: 1
+      - path: Armature.140/Bone.026
+        weight: 1
+      - path: Armature.140/Bone.026/Bone.026_end
+        weight: 1
+      - path: Armature.140/Bone.027
+        weight: 1
+      - path: Armature.140/Bone.027/Bone.027_end
+        weight: 1
+      - path: Armature.140/Bone.028
+        weight: 1
+      - path: Armature.140/Bone.028/Bone.028_end
+        weight: 1
+      - path: Armature.140/Bone.029
+        weight: 1
+      - path: Armature.140/Bone.029/Bone.029_end
+        weight: 1
+      - path: Armature.140/Bone.030
+        weight: 1
+      - path: Armature.140/Bone.030/Bone.030_end
+        weight: 1
+      - path: Armature.140/Bone.031
+        weight: 1
+      - path: Armature.140/Bone.031/Bone.031_end
+        weight: 1
+      - path: Armature.140/Bone.032
+        weight: 1
+      - path: Armature.140/Bone.032/Bone.032_end
+        weight: 1
+      - path: Cube.350
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
