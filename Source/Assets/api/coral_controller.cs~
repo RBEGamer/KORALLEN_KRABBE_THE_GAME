@@ -17,7 +17,7 @@ public class coral_controller : MonoBehaviour {
 	public float food_avariable_timer_max = 5.0f;
 	public float food_avariable_timer_curr = 5.0f;
 	public bool food_update_enabled = true;
-    public bool HasGarbage = false;
+	public bool HasGarbage = false;
 
 	public int inc_player_hung  = 5;
 
@@ -37,6 +37,7 @@ public class coral_controller : MonoBehaviour {
 	}
 	// Use this for initialization
 	void Start () {
+		API.Current.Globals.coral_amount_max++;
 
 		coral_dead = false;
 		coral_health_percentage = 1.0f;
@@ -58,7 +59,7 @@ public class coral_controller : MonoBehaviour {
 	}
 
 
-	
+
 	// Update is called once per frame
 	void Update () {
 
@@ -73,8 +74,8 @@ public class coral_controller : MonoBehaviour {
 
 		if(HasGarbage){
 			if(timer_hralth_dec_curr >= 0.0f){
-			if(timer_hralth_dec_curr < 0.0f){
-				timer_hralth_dec_max = timer_hralth_dec_curr;
+				if(timer_hralth_dec_curr < 0.0f){
+					timer_hralth_dec_max = timer_hralth_dec_curr;
 					coral_health_percentage -= health_decrease_val;
 				}
 			}
@@ -95,6 +96,7 @@ public class coral_controller : MonoBehaviour {
 			anim.SetBool("is_wedel", false);
 			food_update_enabled = false;
 			coral_dead = true;
+			API.Current.Globals.coral_amount_death++;
 		}
 	}
 
