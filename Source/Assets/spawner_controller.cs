@@ -42,7 +42,7 @@ public class spawner_controller : MonoBehaviour {
 
 		if(API.Current.Globals.game_state == Globals.GAME_STATES.GS_PLAYING){
 			if(API.Current.Globals.coral_amount_death >= API.Current.Globals.coral_amount_max){
-				API.Current.Globals.game_state = Globals.GAME_STATES.GS_DIE;	
+				//API.Current.Globals.game_state = Globals.GAME_STATES.GS_DIE;	
 			}
 		}
 
@@ -52,7 +52,7 @@ public class spawner_controller : MonoBehaviour {
 
 		if(API.Current.Globals.game_state == Globals.GAME_STATES.GS_DIE){
 
-			API.Current.Globals.game_state = Globals.GAME_STATES.GS_MENU;
+			//API.Current.Globals.game_state = Globals.GAME_STATES.GS_MENU;
 
 		}
 
