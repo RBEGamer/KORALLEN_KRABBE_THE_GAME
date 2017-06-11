@@ -34,13 +34,13 @@ public class player_controller : MonoBehaviour {
 		anim.SetBool("is_schnipping", false);
 		anim.SetBool("is_moving_left", false);
 		anim.SetBool("is_moving_right", false);
-		anim.SetBool("is_schnipping_left", true);
-		anim.SetBool("is_schnipping_right", true);
+		anim.SetBool("is_schnipping_left", false);
+		anim.SetBool("is_schnipping_right", false);
 		this.name = "player";
 		should_have_position = this.transform.position;
 
 
-
+		anim.SetFloat("move_speed", movement_speed*40);
 		spawn();
 	}
 
@@ -51,10 +51,28 @@ public class player_controller : MonoBehaviour {
 			Debug.LogError("please define a player spawn object with player_spawn name");
 		}
 		this.gameObject.transform.position = spawn.transform.position;
+		should_have_position = spawn.transform.position;
+		player_hungry = 100;
+		enable_movement = true;
+		garbage_to_del = null;
+
+
+		anim.SetBool("is_idle", true);
+		anim.SetBool("is_eating", false);
+		anim.SetBool("is_schnipping", false);
+		anim.SetBool("is_moving_left", false);
+		anim.SetBool("is_moving_right", false);
+		anim.SetBool("is_schnipping_left", false);
+		anim.SetBool("is_schnipping_right", false);
+
+
+
 	}
 
 	// Update is called once per frame
 	void Update () {
+
+		if(API.Current.Globals.game_state != Globals.GAME_STATES.GS_PLAYING){return;}
 
 
 		if(dev_hung_timer_curr >= 0.0f){
@@ -72,13 +90,13 @@ public class player_controller : MonoBehaviour {
 
 		if(enable_movement){
 		this.transform.position = Vector3.Lerp(this.transform.position, should_have_position, movement_speed);
-			if(!((should_have_position - this.gameObject.transform.position).x > 0.1f || (should_have_position - this.gameObject.transform.position).x < -0.1f)){
+			if(!((should_have_position - this.gameObject.transform.position).x > 0.4f || (should_have_position - this.gameObject.transform.position).x < -0.4f)){
 
 				anim.SetBool("is_idle", true);
 				anim.SetBool("is_moving_left", false);
 				anim.SetBool("is_moving_right", false);
-				anim.SetBool("is_schnipping_left", true);
-				anim.SetBool("is_schnipping_right", true);
+				anim.SetBool("is_schnipping_left", false);
+				anim.SetBool("is_schnipping_right", false);
 			}else{
 				anim.SetBool("is_idle", false);
 
