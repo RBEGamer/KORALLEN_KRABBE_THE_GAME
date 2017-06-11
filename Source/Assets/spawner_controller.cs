@@ -20,6 +20,11 @@ public class spawner_controller : MonoBehaviour {
 
 		if(API.Current.Globals.game_state == Globals.GAME_STATES.GS_SPAWN){
 
+
+
+			API.Current.Globals.coral_amount_max = 0;
+			API.Current.Globals.coral_amount_death = 0;
+
 			GameObject.Find("player").GetComponent<player_controller>().spawn();
 
 
@@ -33,8 +38,20 @@ public class spawner_controller : MonoBehaviour {
 		}
 
 
+
+
+		if(API.Current.Globals.game_state == Globals.GAME_STATES.GS_PLAYING){
+			if(API.Current.Globals.coral_amount_death >= API.Current.Globals.coral_amount_max){
+				API.Current.Globals.game_state = Globals.GAME_STATES.GS_DIE;	
+			}
+		}
+
+
+
+
+
 		if(API.Current.Globals.game_state == Globals.GAME_STATES.GS_DIE){
-			
+
 			API.Current.Globals.game_state = Globals.GAME_STATES.GS_MENU;
 
 		}
